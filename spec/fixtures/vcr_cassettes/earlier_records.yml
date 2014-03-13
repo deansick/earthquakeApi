@@ -1,0 +1,687 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://earthquake.usgs.gov/earthquakes/catalogs/eqs7day-M1.txt
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - max-age=60
+      Content-Length:
+      - '61629'
+      Content-Type:
+      - text/plain
+      Expires:
+      - Thu, 13 Mar 2014 20:10:12 GMT
+      Last-Modified:
+      - Thu, 13 Mar 2014 20:05:20 GMT
+      Server:
+      - Footprint Distributor V4.8
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Thu, 13 Mar 2014 20:09:12 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! "Src,Eqid,Version,Datetime,Lat,Lon,Magnitude,Depth,NST,Region\r\n\"This
+        USGS data file has been deprecated. To continue receiving updates for earthquake
+        information you must switch to the new data format [http://earthquake.usgs.gov/earthquakes/feed/].
+        In the future, data feeds will be updated and deprecated following our official
+        deprecation policy [http://earthquake.usgs.gov/earthquakes/feed/policy.php].\"\r\nci,15475721,2,\"Thursday,
+        March 13, 2014 19:43:41 UTC\",36.1167,-118.0563,1.5,1.10,16,\"Central California\"\r\nci,15475713,2,\"Thursday,
+        March 13, 2014 19:38:15 UTC\",35.5705,-118.5360,1.4,6.80,13,\"Central California\"\r\nnc,72184476,1,\"Thursday,
+        March 13, 2014 19:37:15 UTC\",37.1217,-121.5208,1.5,7.20,22,\"Northern California\"\r\nnc,72184461,3,\"Thursday,
+        March 13, 2014 19:12:03 UTC\",41.5467,-124.1415,3.3,4.70,12,\"offshore Northern
+        California\"\r\nat,00n2e2nd,1,\"Thursday, March 13, 2014 19:11:37 UTC\",41.9400,-126.6050,5.6,15.00,38,\"off
+        the coast of Northern California\"\r\nnc,72184436,1,\"Thursday, March 13,
+        2014 18:47:37 UTC\",40.3348,-124.4467,2.5,16.00, 8,\"offshore Northern California\"\r\nci,15475665,2,\"Thursday,
+        March 13, 2014 17:10:02 UTC\",33.3108,-116.3283,1.2,15.20,17,\"Southern California\"\r\nci,15475633,2,\"Thursday,
+        March 13, 2014 16:02:10 UTC\",34.0212,-117.2365,1.3,16.90,19,\"Greater Los
+        Angeles area, California\"\r\npr,14072002,0,\"Thursday, March 13, 2014 15:07:12
+        UTC\",18.5820,-64.9994,2.5,23.00, 5,\"Virgin Islands region\"\r\nci,15475617,2,\"Thursday,
+        March 13, 2014 14:50:22 UTC\",33.4355,-116.4412,1.3,15.70,14,\"Southern California\"\r\nhv,60655291,1,\"Thursday,
+        March 13, 2014 14:49:46 UTC\",19.4047,-155.2815,1.9,2.10,26,\"Island of Hawaii,
+        Hawaii\"\r\nnc,72184321,2,\"Thursday, March 13, 2014 14:32:49 UTC\",40.2428,-121.1715,1.9,4.50,16,\"Northern
+        California\"\r\nnc,72184316,0,\"Thursday, March 13, 2014 14:19:38 UTC\",38.7895,-122.7302,1.2,2.20,17,\"Northern
+        California\"\r\nci,15475609,2,\"Thursday, March 13, 2014 14:18:51 UTC\",33.1210,-116.5867,1.5,6.50,38,\"Southern
+        California\"\r\nnc,72184296,1,\"Thursday, March 13, 2014 13:49:29 UTC\",38.8117,-122.8250,1.4,2.40,26,\"Northern
+        California\"\r\nat,00n2dmf0,1,\"Thursday, March 13, 2014 13:21:00 UTC\",51.1770,-179.2610,5.1,38.00,12,\"Andreanof
+        Islands, Aleutian Islands, Alaska\"\r\nnc,72184281,3,\"Thursday, March 13,
+        2014 13:06:22 UTC\",38.8033,-122.4575,2.1,9.40,55,\"Northern California\"\r\nnc,72184276,1,\"Thursday,
+        March 13, 2014 12:36:50 UTC\",40.3088,-124.8517,2.9,25.30,18,\"offshore Northern
+        California\"\r\nci,15475593,2,\"Thursday, March 13, 2014 12:30:29 UTC\",34.0353,-117.1003,1.4,4.20,44,\"Greater
+        Los Angeles area, California\"\r\nci,15475585,2,\"Thursday, March 13, 2014
+        11:59:43 UTC\",33.2165,-116.0810,1.2,13.00,21,\"Southern California\"\r\nnc,72184256,0,\"Thursday,
+        March 13, 2014 11:24:57 UTC\",38.8147,-122.8198,1.0,3.70,17,\"Northern California\"\r\nuw,60717896,1,\"Thursday,
+        March 13, 2014 10:43:42 UTC\",48.8763,-124.8023,1.7,13.50,18,\"Vancouver Island,
+        Canada region\"\r\nci,15475561,2,\"Thursday, March 13, 2014 09:59:38 UTC\",36.1260,-118.0575,1.2,0.00,14,\"Central
+        California\"\r\nnc,72184221,1,\"Thursday, March 13, 2014 09:47:01 UTC\",38.8235,-122.8320,1.2,2.80,25,\"Northern
+        California\"\r\nci,15475553,2,\"Thursday, March 13, 2014 09:02:29 UTC\",36.1122,-118.0572,2.0,0.10,27,\"Central
+        California\"\r\nci,15475537,2,\"Thursday, March 13, 2014 08:10:01 UTC\",35.7252,-118.0553,1.2,7.80,18,\"Central
+        California\"\r\nci,15475521,2,\"Thursday, March 13, 2014 07:49:36 UTC\",36.1262,-118.0565,2.1,0.30,24,\"Central
+        California\"\r\nnc,72184136,0,\"Thursday, March 13, 2014 06:51:50 UTC\",38.8510,-122.7952,1.3,0.20,14,\"Northern
+        California\"\r\npr,14072000,0,\"Thursday, March 13, 2014 06:36:25 UTC\",18.9740,-65.3544,2.8,42.00,18,\"Puerto
+        Rico region\"\r\nnc,72184111,1,\"Thursday, March 13, 2014 05:41:17 UTC\",35.9762,-120.5357,1.8,6.60,26,\"Central
+        California\"\r\npr,14072001,0,\"Thursday, March 13, 2014 05:05:45 UTC\",18.7716,-64.9110,2.5,33.00,11,\"Virgin
+        Islands region\"\r\nnc,72184091,2,\"Thursday, March 13, 2014 04:50:46 UTC\",38.7953,-122.4543,1.8,8.90,45,\"Northern
+        California\"\r\nnc,72184071,0,\"Thursday, March 13, 2014 04:48:06 UTC\",37.6415,-118.9342,1.1,7.80,10,\"Long
+        Valley area, California\"\r\nci,15475481,2,\"Thursday, March 13, 2014 04:47:04
+        UTC\",36.1115,-118.0567,2.1,0.30,24,\"Central California\"\r\nnc,72184051,0,\"Thursday,
+        March 13, 2014 04:45:44 UTC\",37.6428,-118.9478,1.0,0.90,10,\"Long Valley
+        area, California\"\r\nci,15475473,2,\"Thursday, March 13, 2014 04:45:26 UTC\",36.1117,-118.0587,1.7,0.40,19,\"Central
+        California\"\r\nci,15475457,2,\"Thursday, March 13, 2014 04:42:12 UTC\",34.1345,-118.4067,1.3,0.10,12,\"Greater
+        Los Angeles area, California\"\r\nci,15475449,2,\"Thursday, March 13, 2014
+        04:41:20 UTC\",36.1320,-118.0547,1.5,0.10,16,\"Central California\"\r\nnc,72184036,0,\"Thursday,
+        March 13, 2014 04:22:43 UTC\",38.7852,-122.7402,1.7,0.10,14,\"Northern California\"\r\nnc,72184031,0,\"Thursday,
+        March 13, 2014 04:22:39 UTC\",38.7835,-122.7438,1.8,1.40, 9,\"Northern California\"\r\nci,15475433,2,\"Thursday,
+        March 13, 2014 03:34:27 UTC\",36.1218,-118.0573,1.8,0.00,19,\"Central California\"\r\nci,15475425,2,\"Thursday,
+        March 13, 2014 03:05:48 UTC\",35.9678,-117.3302,1.9,7.20,17,\"Central California\"\r\nci,15475417,2,\"Thursday,
+        March 13, 2014 03:05:24 UTC\",35.9707,-117.3290,1.9,4.50,19,\"Central California\"\r\nci,15475409,2,\"Thursday,
+        March 13, 2014 02:53:02 UTC\",36.1147,-118.0562,1.8,0.40,18,\"Central California\"\r\nci,15475393,2,\"Thursday,
+        March 13, 2014 02:37:06 UTC\",33.8842,-116.8898,1.0,14.40,13,\"Southern California\"\r\nci,15475385,2,\"Thursday,
+        March 13, 2014 02:26:29 UTC\",36.1097,-118.0558,3.0,0.10,34,\"Central California\"\r\nci,15475361,2,\"Thursday,
+        March 13, 2014 02:18:12 UTC\",36.1155,-118.0570,2.2,0.10,24,\"Central California\"\r\nci,15475353,2,\"Thursday,
+        March 13, 2014 02:16:19 UTC\",36.1187,-118.0578,2.2,0.20,25,\"Central California\"\r\nci,15475345,2,\"Thursday,
+        March 13, 2014 02:14:18 UTC\",36.1128,-118.0560,2.8,0.00,26,\"Central California\"\r\nci,15475329,3,\"Thursday,
+        March 13, 2014 02:11:04 UTC\",36.1160,-118.0537,4.4,0.10,37,\"Central California\"\r\nnc,72183931,0,\"Thursday,
+        March 13, 2014 02:04:04 UTC\",38.7892,-122.7553,1.3,1.80, 9,\"Northern California\"\r\nci,15475321,2,\"Thursday,
+        March 13, 2014 02:02:46 UTC\",34.6515,-120.9750,2.9,0.20, 9,\"offshore Central
+        California\"\r\nnc,72183921,1,\"Thursday, March 13, 2014 01:51:09 UTC\",38.8277,-122.8523,1.6,2.40,25,\"Northern
+        California\"\r\nci,15475313,2,\"Thursday, March 13, 2014 01:35:43 UTC\",36.0423,-117.5410,1.4,13.30,
+        8,\"Central California\"\r\nnc,72183881,0,\"Thursday, March 13, 2014 00:54:47
+        UTC\",37.6413,-118.9285,1.6,7.10,18,\"Long Valley area, California\"\r\nnc,72183871,0,\"Thursday,
+        March 13, 2014 00:53:56 UTC\",37.6413,-118.9260,1.4,9.30,11,\"Long Valley
+        area, California\"\r\nnc,72183861,0,\"Thursday, March 13, 2014 00:53:13 UTC\",37.6415,-118.9310,1.2,8.20,15,\"Long
+        Valley area, California\"\r\nnc,72183851,0,\"Thursday, March 13, 2014 00:52:35
+        UTC\",37.6345,-118.9327,1.0,6.10,13,\"Long Valley area, California\"\r\nnc,72183846,2,\"Thursday,
+        March 13, 2014 00:52:23 UTC\",37.6363,-118.9322,1.5,7.60,36,\"Long Valley
+        area, California\"\r\nnc,72183841,0,\"Thursday, March 13, 2014 00:51:35 UTC\",37.6297,-118.9083,1.4,1.40,10,\"Long
+        Valley area, California\"\r\nnc,72183836,0,\"Thursday, March 13, 2014 00:50:51
+        UTC\",37.6380,-118.9310,1.1,7.20,13,\"Long Valley area, California\"\r\nnc,72183826,0,\"Thursday,
+        March 13, 2014 00:49:21 UTC\",37.6418,-118.9328,1.4,7.90, 8,\"Long Valley
+        area, California\"\r\nnc,72183821,0,\"Thursday, March 13, 2014 00:46:13 UTC\",37.6423,-118.8828,1.0,1.20,
+        5,\"Long Valley area, California\"\r\nhv,60654806,4,\"Thursday, March 13,
+        2014 00:30:51 UTC\",19.3927,-155.4827,1.4,10.30,49,\"Island of Hawaii, Hawaii\"\r\nnc,72183786,3,\"Thursday,
+        March 13, 2014 00:05:40 UTC\",39.6098,-121.9942,2.0,28.30,27,\"Northern California\"\r\nnc,72183781,0,\"Thursday,
+        March 13, 2014 00:00:00 UTC\",38.8392,-122.8287,1.1,2.70,10,\"Northern California\"\r\nci,15475297,2,\"Wednesday,
+        March 12, 2014 23:18:34 UTC\",35.0327,-117.6893,1.7,0.00,16,\"Southern California\"\r\nnc,72183736,0,\"Wednesday,
+        March 12, 2014 22:51:22 UTC\",37.6375,-118.9328,1.4,7.40,18,\"Long Valley
+        area, California\"\r\nnc,72183726,0,\"Wednesday, March 12, 2014 22:48:44 UTC\",37.6418,-118.9317,1.3,8.20,
+        9,\"Long Valley area, California\"\r\nnc,72183721,0,\"Wednesday, March 12,
+        2014 22:48:16 UTC\",37.6398,-118.9318,1.1,7.70,13,\"Long Valley area, California\"\r\nnc,72183716,0,\"Wednesday,
+        March 12, 2014 22:46:42 UTC\",37.6570,-118.9307,1.5,1.50,17,\"Long Valley
+        area, California\"\r\nci,15475289,2,\"Wednesday, March 12, 2014 22:45:50 UTC\",32.5688,-115.6980,1.9,7.50,23,\"Baja
+        California, Mexico\"\r\npr,14071010,0,\"Wednesday, March 12, 2014 22:40:05
+        UTC\",18.9813,-67.5022,2.8,10.00, 6,\"Puerto Rico region\"\r\nci,15475281,2,\"Wednesday,
+        March 12, 2014 22:30:02 UTC\",32.5985,-116.9863,1.2,2.00, 9,\"San Diego County
+        urban area, California\"\r\nnc,72183696,0,\"Wednesday, March 12, 2014 22:18:56
+        UTC\",37.4580,-118.5687,1.4,11.60, 9,\"Central California\"\r\nci,15475273,2,\"Wednesday,
+        March 12, 2014 22:04:46 UTC\",33.9800,-116.8632,1.4,19.30,23,\"Southern California\"\r\nhv,60654626,1,\"Wednesday,
+        March 12, 2014 21:31:43 UTC\",19.3222,-155.1693,1.8,3.10,66,\"Island of Hawaii,
+        Hawaii\"\r\nnc,72183661,3,\"Wednesday, March 12, 2014 21:30:24 UTC\",40.7495,-122.3123,2.0,0.00,36,\"Northern
+        California\"\r\nnc,72183656,0,\"Wednesday, March 12, 2014 21:21:06 UTC\",38.8435,-122.7648,1.3,1.90,14,\"Northern
+        California\"\r\nnc,72183626,1,\"Wednesday, March 12, 2014 21:07:42 UTC\",36.6843,-121.3142,1.9,4.20,22,\"Central
+        California\"\r\nci,15475257,2,\"Wednesday, March 12, 2014 20:48:57 UTC\",34.2715,-118.3672,1.4,3.70,15,\"Greater
+        Los Angeles area, California\"\r\nci,15475249,2,\"Wednesday, March 12, 2014
+        20:45:31 UTC\",34.3417,-116.8768,1.3,0.00,20,\"Southern California\"\r\nci,15475241,2,\"Wednesday,
+        March 12, 2014 20:34:36 UTC\",36.0720,-117.8478,1.2,1.80, 9,\"Central California\"\r\nuw,60717561,1,\"Wednesday,
+        March 12, 2014 20:27:22 UTC\",47.0885,-118.8418,1.7,0.00,16,\"Washington\"\r\nci,15475233,2,\"Wednesday,
+        March 12, 2014 20:12:32 UTC\",33.2785,-116.8812,1.0,7.00,11,\"Southern California\"\r\nnc,72183606,0,\"Wednesday,
+        March 12, 2014 20:04:00 UTC\",38.8493,-122.7358,1.4,3.10,13,\"Northern California\"\r\nnc,72183601,0,\"Wednesday,
+        March 12, 2014 19:45:38 UTC\",37.3323,-122.1012,1.9,0.00, 7,\"San Francisco
+        Bay area, California\"\r\nci,15475217,2,\"Wednesday, March 12, 2014 19:19:16
+        UTC\",35.9133,-117.9235,1.4,1.80,11,\"Central California\"\r\nnc,72183581,0,\"Wednesday,
+        March 12, 2014 19:03:57 UTC\",37.6145,-119.3607,1.4,13.90, 8,\"Central California\"\r\nnc,72183576,0,\"Wednesday,
+        March 12, 2014 18:36:20 UTC\",38.7605,-122.7273,1.5,2.10,15,\"Northern California\"\r\nnc,72183566,1,\"Wednesday,
+        March 12, 2014 18:29:24 UTC\",37.6165,-119.6007,1.9,5.00,17,\"Central California\"\r\nci,15475209,2,\"Wednesday,
+        March 12, 2014 18:28:05 UTC\",34.1097,-118.4025,2.1,1.80,29,\"Greater Los
+        Angeles area, California\"\r\nci,15475201,2,\"Wednesday, March 12, 2014 18:22:48
+        UTC\",33.0007,-116.4420,1.3,11.50,20,\"Southern California\"\r\npr,14071008,0,\"Wednesday,
+        March 12, 2014 18:18:32 UTC\",18.6573,-64.6436,2.0,9.00, 3,\"Virgin Islands
+        region\"\r\npr,14071009,0,\"Wednesday, March 12, 2014 17:45:51 UTC\",19.2185,-66.9496,3.0,3.00,
+        5,\"Puerto Rico region\"\r\npr,14071006,0,\"Wednesday, March 12, 2014 16:42:13
+        UTC\",18.4775,-66.6179,2.6,87.00,12,\"Puerto Rico\"\r\npr,14071007,0,\"Wednesday,
+        March 12, 2014 16:03:54 UTC\",18.8155,-67.4998,2.6,8.00, 8,\"Puerto Rico region\"\r\nnc,72183516,0,\"Wednesday,
+        March 12, 2014 15:36:08 UTC\",38.8318,-122.8797,1.5,2.50,12,\"Northern California\"\r\nci,15475185,2,\"Wednesday,
+        March 12, 2014 15:19:56 UTC\",35.7633,-118.0195,1.6,6.20,17,\"Central California\"\r\nnc,72183511,0,\"Wednesday,
+        March 12, 2014 15:02:31 UTC\",38.8077,-122.8208,1.7,3.70, 8,\"Northern California\"\r\nnc,72183506,0,\"Wednesday,
+        March 12, 2014 15:00:23 UTC\",38.8345,-122.8777,1.3,3.30,19,\"Northern California\"\r\nci,15475153,2,\"Wednesday,
+        March 12, 2014 14:14:24 UTC\",33.9542,-116.9443,1.2,14.80,13,\"Southern California\"\r\npr,14071005,0,\"Wednesday,
+        March 12, 2014 12:36:53 UTC\",18.8985,-64.2490,2.4,9.00, 4,\"Virgin Islands
+        region\"\r\nnc,72183486,0,\"Wednesday, March 12, 2014 12:35:09 UTC\",36.9783,-121.6223,1.1,7.40,11,\"Northern
+        California\"\r\nnc,72183481,0,\"Wednesday, March 12, 2014 12:34:46 UTC\",38.7938,-122.7600,1.1,1.80,
+        9,\"Northern California\"\r\nci,15475145,2,\"Wednesday, March 12, 2014 12:27:16
+        UTC\",33.3427,-116.2013,1.0,10.70,20,\"Southern California\"\r\nnc,72183466,3,\"Wednesday,
+        March 12, 2014 11:54:43 UTC\",37.6227,-119.3732,2.7,14.10,39,\"Central California\"\r\npr,14071004,2,\"Wednesday,
+        March 12, 2014 11:50:45 UTC\",19.3932,-67.0682,4.3,28.00,24,\"Puerto Rico
+        region\"\r\nnc,72183461,1,\"Wednesday, March 12, 2014 11:34:57 UTC\",38.8210,-122.7620,1.9,2.10,33,\"Northern
+        California\"\r\nnc,72183456,0,\"Wednesday, March 12, 2014 11:03:20 UTC\",38.7940,-122.7588,1.2,1.80,11,\"Northern
+        California\"\r\nnc,72183451,2,\"Wednesday, March 12, 2014 10:56:17 UTC\",38.6267,-119.4877,2.2,1.90,37,\"Central
+        California\"\r\npr,14071003,0,\"Wednesday, March 12, 2014 10:45:11 UTC\",18.8001,-64.1904,2.9,39.00,
+        7,\"Virgin Islands region\"\r\npr,14071001,0,\"Wednesday, March 12, 2014 10:02:43
+        UTC\",18.1583,-65.9375,2.0,73.00,14,\"Puerto Rico\"\r\npr,14071002,0,\"Wednesday,
+        March 12, 2014 10:01:10 UTC\",18.9153,-64.3060,2.5,6.00, 5,\"Virgin Islands
+        region\"\r\nnc,72183436,3,\"Wednesday, March 12, 2014 09:44:37 UTC\",37.6370,-118.9138,2.7,8.20,40,\"Long
+        Valley area, California\"\r\nnc,72183431,0,\"Wednesday, March 12, 2014 09:40:48
+        UTC\",38.8357,-122.8027,1.5,2.70,21,\"Northern California\"\r\nnc,72183426,1,\"Wednesday,
+        March 12, 2014 09:38:58 UTC\",37.6340,-118.9130,1.8,8.40,24,\"Long Valley
+        area, California\"\r\nnc,72183421,0,\"Wednesday, March 12, 2014 09:37:34 UTC\",37.6352,-118.9132,1.4,8.40,18,\"Long
+        Valley area, California\"\r\nnc,72183401,3,\"Wednesday, March 12, 2014 09:08:07
+        UTC\",40.7465,-125.1917,3.0,18.20,59,\"offshore Northern California\"\r\nuw,60717096,1,\"Wednesday,
+        March 12, 2014 09:05:23 UTC\",47.7413,-120.0353,1.3,4.00, 9,\"Washington\"\r\nnc,72183391,0,\"Wednesday,
+        March 12, 2014 08:56:34 UTC\",38.7750,-122.7175,1.5,2.40,19,\"Northern California\"\r\nat,00n2bewn,1,\"Wednesday,
+        March 12, 2014 08:43:35 UTC\",59.2850,-153.1010,4.5,84.00,30,\"Southern Alaska\"\r\nci,15475105,2,\"Wednesday,
+        March 12, 2014 08:31:57 UTC\",33.6912,-116.7987,1.0,17.30,24,\"Southern California\"\r\nci,15475097,2,\"Wednesday,
+        March 12, 2014 08:23:08 UTC\",33.9130,-116.8990,1.2,25.70,15,\"Southern California\"\r\nnc,72183356,2,\"Wednesday,
+        March 12, 2014 07:49:38 UTC\",40.6535,-125.2478,2.9,24.20,41,\"offshore Northern
+        California\"\r\nnc,72183321,3,\"Wednesday, March 12, 2014 07:08:57 UTC\",36.7683,-121.4053,2.1,9.80,71,\"Central
+        California\"\r\nci,15475073,2,\"Wednesday, March 12, 2014 06:52:32 UTC\",36.1047,-117.8510,1.3,4.40,11,\"Central
+        California\"\r\npr,14071000,0,\"Wednesday, March 12, 2014 06:47:10 UTC\",18.8820,-65.1697,3.1,54.00,14,\"Puerto
+        Rico region\"\r\nnc,72183301,0,\"Wednesday, March 12, 2014 06:28:16 UTC\",38.8270,-122.8032,1.1,0.00,14,\"Northern
+        California\"\r\nnc,72183286,1,\"Wednesday, March 12, 2014 06:24:47 UTC\",35.8262,-120.3738,1.8,6.30,34,\"Central
+        California\"\r\nnc,72183276,1,\"Wednesday, March 12, 2014 05:59:09 UTC\",38.8177,-122.8207,1.5,1.50,24,\"Northern
+        California\"\r\nci,15475057,2,\"Wednesday, March 12, 2014 05:42:41 UTC\",35.8020,-117.5605,1.8,2.80,26,\"Central
+        California\"\r\nnc,72183256,0,\"Wednesday, March 12, 2014 05:17:52 UTC\",38.5912,-122.2658,2.0,4.50,13,\"Northern
+        California\"\r\nnc,72183216,3,\"Wednesday, March 12, 2014 04:24:26 UTC\",37.6182,-119.3593,2.5,14.40,43,\"Central
+        California\"\r\nnc,72183191,3,\"Wednesday, March 12, 2014 04:05:13 UTC\",38.8260,-122.8510,2.1,2.70,65,\"Northern
+        California\"\r\nci,15475017,2,\"Wednesday, March 12, 2014 04:03:01 UTC\",36.0765,-117.8573,1.3,2.80,
+        8,\"Central California\"\r\nhv,60654246,3,\"Wednesday, March 12, 2014 03:54:34
+        UTC\",19.3397,-155.1157,1.5,5.80,59,\"Island of Hawaii, Hawaii\"\r\nnc,72183181,0,\"Wednesday,
+        March 12, 2014 03:42:54 UTC\",38.8023,-122.4692,1.4,9.90, 7,\"Northern California\"\r\nhv,60654236,5,\"Wednesday,
+        March 12, 2014 03:42:27 UTC\",19.1988,-155.3282,3.3,43.30,84,\"Island of Hawaii,
+        Hawaii\"\r\nnc,72183176,5,\"Wednesday, March 12, 2014 03:39:58 UTC\",38.7937,-122.4520,2.9,9.80,97,\"Northern
+        California\"\r\nnc,72183161,1,\"Wednesday, March 12, 2014 03:26:22 UTC\",38.8302,-122.7992,1.2,2.10,23,\"Northern
+        California\"\r\nnc,72183171,0,\"Wednesday, March 12, 2014 03:25:51 UTC\",38.8283,-122.7995,1.6,2.00,22,\"Northern
+        California\"\r\nnc,72183166,0,\"Wednesday, March 12, 2014 03:25:48 UTC\",38.8315,-122.7992,1.5,1.80,
+        7,\"Northern California\"\r\nuw,60717026,1,\"Wednesday, March 12, 2014 03:04:13
+        UTC\",47.0153,-125.6128,2.2,16.40,10,\"near the coast of Washington\"\r\nnc,72183141,2,\"Wednesday,
+        March 12, 2014 02:05:53 UTC\",40.3385,-124.0865,1.8,30.20,22,\"Northern California\"\r\nnc,72183126,0,\"Wednesday,
+        March 12, 2014 01:51:45 UTC\",36.7727,-121.4020,1.7,10.50,15,\"Central California\"\r\nci,15474969,2,\"Wednesday,
+        March 12, 2014 01:47:35 UTC\",33.9790,-116.9615,1.4,14.60,20,\"Southern California\"\r\nnc,72183116,0,\"Wednesday,
+        March 12, 2014 01:46:05 UTC\",38.8003,-122.4647,1.8,9.70, 7,\"Northern California\"\r\nci,15474945,2,\"Wednesday,
+        March 12, 2014 00:59:06 UTC\",33.4788,-116.7390,1.1,9.90,32,\"Southern California\"\r\nat,00n2as4y,1,\"Wednesday,
+        March 12, 2014 00:31:46 UTC\",44.3060,-129.0930,5.1,12.00,101,\"off the coast
+        of Oregon\"\r\nnc,72183086,1,\"Wednesday, March 12, 2014 00:30:15 UTC\",36.7677,-121.4033,1.9,9.00,24,\"Central
+        California\"\r\nuw,60716861,1,\"Tuesday, March 11, 2014 23:39:44 UTC\",47.1038,-123.1130,1.1,0.00,
+        7,\"Olympic Peninsula, Washington\"\r\nnc,72183071,0,\"Tuesday, March 11,
+        2014 23:35:19 UTC\",36.8330,-121.3580,1.3,6.90,11,\"Central California\"\r\npr,14070006,0,\"Tuesday,
+        March 11, 2014 23:05:57 UTC\",18.1051,-66.9850,1.5,16.00, 4,\"Puerto Rico\"\r\nnc,72183041,0,\"Tuesday,
+        March 11, 2014 22:02:49 UTC\",36.6068,-121.2215,1.6,6.50,17,\"Central California\"\r\nnc,72183036,1,\"Tuesday,
+        March 11, 2014 21:51:07 UTC\",36.8820,-120.9903,1.7,4.20,25,\"Central California\"\r\nnc,72183026,1,\"Tuesday,
+        March 11, 2014 21:20:18 UTC\",38.8132,-122.8218,1.4,3.20,25,\"Northern California\"\r\nuw,60716601,1,\"Tuesday,
+        March 11, 2014 21:18:27 UTC\",46.1667,-122.7533,1.4,0.00,20,\"Washington\"\r\nuu,60059052,2,\"Tuesday,
+        March 11, 2014 21:17:34 UTC\",37.3932,-112.4702,2.2,2.30,15,\"Utah\"\r\nci,15474913,2,\"Tuesday,
+        March 11, 2014 20:57:22 UTC\",33.8000,-117.5783,1.4,11.50,36,\"Greater Los
+        Angeles area, California\"\r\nnc,72183016,0,\"Tuesday, March 11, 2014 19:59:44
+        UTC\",38.7903,-122.7623,1.5,2.60,24,\"Northern California\"\r\nnc,72183006,6,\"Tuesday,
+        March 11, 2014 19:21:41 UTC\",40.6455,-125.3065,3.1,23.60,50,\"offshore Northern
+        California\"\r\npr,14070005,0,\"Tuesday, March 11, 2014 18:25:34 UTC\",18.7674,-65.0416,2.3,7.00,
+        3,\"Virgin Islands region\"\r\nuw,60716296,1,\"Tuesday, March 11, 2014 18:08:28
+        UTC\",46.2008,-122.1813,1.2,2.60,18,\"Mount St. Helens area, Washington\"\r\nuw,60716301,1,\"Tuesday,
+        March 11, 2014 18:06:31 UTC\",44.0112,-122.7087,1.6,0.00,12,\"Oregon\"\r\nci,15474889,2,\"Tuesday,
+        March 11, 2014 17:18:37 UTC\",34.5528,-116.2458,1.4,7.90,17,\"Southern California\"\r\nnc,72182921,3,\"Tuesday,
+        March 11, 2014 16:34:25 UTC\",38.8320,-122.7993,2.3,2.90,69,\"Northern California\"\r\npr,14070004,0,\"Tuesday,
+        March 11, 2014 16:14:53 UTC\",18.9055,-65.1930,2.9,53.00, 5,\"Puerto Rico
+        region\"\r\npr,14070003,0,\"Tuesday, March 11, 2014 16:12:58 UTC\",18.3397,-65.0595,2.2,80.00,
+        4,\"Virgin Islands region\"\r\nci,15474873,2,\"Tuesday, March 11, 2014 16:04:16
+        UTC\",34.3430,-116.8713,1.2,0.10,17,\"Southern California\"\r\nuu,60059017,7,\"Tuesday,
+        March 11, 2014 15:27:19 UTC\",39.9650,-109.4290,2.1,2.40,18,\"Utah\"\r\nnc,72182896,0,\"Tuesday,
+        March 11, 2014 15:27:12 UTC\",38.7567,-122.7272,1.7,2.20, 8,\"Northern California\"\r\nnc,72182841,0,\"Tuesday,
+        March 11, 2014 12:09:03 UTC\",38.8183,-122.8215,1.0,3.30, 7,\"Northern California\"\r\nnc,72182831,0,\"Tuesday,
+        March 11, 2014 11:37:18 UTC\",38.7903,-122.7620,1.3,1.80,20,\"Northern California\"\r\nnc,72182816,1,\"Tuesday,
+        March 11, 2014 11:13:01 UTC\",38.7933,-122.7582,1.4,1.60,20,\"Northern California\"\r\nuu,60058987,4,\"Tuesday,
+        March 11, 2014 11:04:34 UTC\",44.7482,-110.7882,1.8,6.40,24,\"Yellowstone
+        National Park, Wyoming\"\r\nuu,60058967,4,\"Tuesday, March 11, 2014 10:59:10
+        UTC\",44.7450,-110.7885,2.1,6.00,24,\"Yellowstone National Park, Wyoming\"\r\nuu,60058962,4,\"Tuesday,
+        March 11, 2014 10:57:31 UTC\",44.7548,-110.7790,1.2,7.90,13,\"Yellowstone
+        National Park, Wyoming\"\r\nuu,60058952,2,\"Tuesday, March 11, 2014 10:22:44
+        UTC\",42.0212,-112.5335,1.2,6.00,15,\"southern Idaho\"\r\nci,15474841,2,\"Tuesday,
+        March 11, 2014 10:12:51 UTC\",34.3488,-116.8692,1.5,8.80,54,\"Southern California\"\r\nci,15474849,2,\"Tuesday,
+        March 11, 2014 10:12:39 UTC\",32.9003,-115.4385,1.4,18.10, 6,\"Southern California\"\r\nci,15474833,2,\"Tuesday,
+        March 11, 2014 10:05:00 UTC\",33.9823,-116.9580,1.6,16.80,55,\"Southern California\"\r\nci,15474825,2,\"Tuesday,
+        March 11, 2014 10:03:08 UTC\",35.4770,-118.2820,2.7,4.40,40,\"Central California\"\r\nuu,60058947,4,\"Tuesday,
+        March 11, 2014 09:20:36 UTC\",44.8327,-110.5320,1.7,6.70,14,\"Yellowstone
+        National Park, Wyoming\"\r\nuu,60058942,2,\"Tuesday, March 11, 2014 08:51:11
+        UTC\",38.9590,-111.3792,1.6,3.20, 5,\"Utah\"\r\nci,15474817,2,\"Tuesday, March
+        11, 2014 08:37:16 UTC\",32.1722,-115.2018,2.9,37.90,10,\"Baja California,
+        Mexico\"\r\nci,15474809,2,\"Tuesday, March 11, 2014 08:24:18 UTC\",33.4993,-116.4695,1.0,10.90,14,\"Southern
+        California\"\r\nnc,72182771,3,\"Tuesday, March 11, 2014 08:05:10 UTC\",40.6903,-125.1853,2.9,11.30,41,\"offshore
+        Northern California\"\r\nuw,60716081,2,\"Tuesday, March 11, 2014 07:51:27
+        UTC\",41.9923,-124.2805,1.6,33.60,13,\"offshore Northern California\"\r\nci,15474801,2,\"Tuesday,
+        March 11, 2014 07:24:21 UTC\",35.1370,-118.1645,1.6,1.10,25,\"Southern California\"\r\nnc,72182756,3,\"Tuesday,
+        March 11, 2014 07:16:40 UTC\",36.7670,-121.4012,2.2,9.30,74,\"Central California\"\r\nnc,72182751,0,\"Tuesday,
+        March 11, 2014 07:11:42 UTC\",37.6605,-122.0707,1.9,4.60,21,\"San Francisco
+        Bay area, California\"\r\npr,14070001,0,\"Tuesday, March 11, 2014 06:09:03
+        UTC\",19.1445,-66.5910,2.7,42.00, 4,\"Puerto Rico region\"\r\nnc,72182731,3,\"Tuesday,
+        March 11, 2014 06:04:31 UTC\",38.8222,-122.7925,2.0,3.60,68,\"Northern California\"\r\nnc,72182736,0,\"Tuesday,
+        March 11, 2014 06:03:50 UTC\",38.8225,-122.8450,1.0,2.50,17,\"Northern California\"\r\nci,15474785,2,\"Tuesday,
+        March 11, 2014 05:34:09 UTC\",33.3600,-116.2907,1.0,14.70,28,\"Southern California\"\r\nci,15474777,2,\"Tuesday,
+        March 11, 2014 05:26:02 UTC\",33.3602,-116.3108,1.7,12.80,48,\"Southern California\"\r\nnc,72182711,0,\"Tuesday,
+        March 11, 2014 05:04:11 UTC\",38.7692,-122.9247,1.4,2.90,10,\"Northern California\"\r\nci,15474769,2,\"Tuesday,
+        March 11, 2014 04:46:14 UTC\",36.0740,-117.8560,1.3,2.10,10,\"Central California\"\r\nnc,72182686,0,\"Tuesday,
+        March 11, 2014 03:27:53 UTC\",38.7705,-122.7098,1.2,2.50,15,\"Northern California\"\r\nuu,60058927,5,\"Tuesday,
+        March 11, 2014 02:59:45 UTC\",44.5263,-110.8697,2.2,3.20,16,\"Yellowstone
+        National Park, Wyoming\"\r\nuu,60003510,2,\"Tuesday, March 11, 2014 02:57:54
+        UTC\",44.5268,-110.8467,1.2,2.20, 6,\"Yellowstone National Park, Wyoming\"\r\nuu,60058917,4,\"Tuesday,
+        March 11, 2014 02:57:35 UTC\",44.5263,-110.8682,1.7,2.10,16,\"Yellowstone
+        National Park, Wyoming\"\r\npt,14070000,B,\"Tuesday, March 11, 2014 02:44:05
+        UTC\",-60.9170,-19.8410,6.8,10.00,13,\"east of the South Sandwich Islands\"\r\nci,15474737,2,\"Tuesday,
+        March 11, 2014 02:05:23 UTC\",36.0450,-117.5880,1.2,2.20, 9,\"Central California\"\r\nuu,60058912,4,\"Tuesday,
+        March 11, 2014 01:53:20 UTC\",44.8007,-110.5528,1.7,4.80,12,\"Yellowstone
+        National Park, Wyoming\"\r\nci,15474729,2,\"Tuesday, March 11, 2014 00:57:08
+        UTC\",32.8368,-115.5960,2.1,14.30,20,\"Southern California\"\r\npr,14070000,0,\"Tuesday,
+        March 11, 2014 00:43:41 UTC\",19.5328,-67.7966,3.4,84.00, 4,\"Dominican Republic
+        region\"\r\nuu,60058907,2,\"Tuesday, March 11, 2014 00:41:04 UTC\",42.0257,-112.5290,1.2,8.30,17,\"southern
+        Idaho\"\r\nci,15474721,2,\"Tuesday, March 11, 2014 00:41:01 UTC\",36.0548,-117.5732,1.2,5.20,11,\"Central
+        California\"\r\nuw,60715891,1,\"Tuesday, March 11, 2014 00:14:31 UTC\",41.6900,-121.4620,2.1,42.20,
+        7,\"Northern California\"\r\nnc,72182656,2,\"Tuesday, March 11, 2014 00:13:08
+        UTC\",40.7937,-125.1562,2.9,23.80,45,\"offshore Northern California\"\r\nci,15474713,2,\"Tuesday,
+        March 11, 2014 00:12:34 UTC\",33.3520,-116.2385,1.2,10.90,23,\"Southern California\"\r\nci,15474705,2,\"Monday,
+        March 10, 2014 23:32:55 UTC\",33.4982,-116.4638,1.4,6.00,34,\"Southern California\"\r\nci,15474697,2,\"Monday,
+        March 10, 2014 23:28:47 UTC\",35.0252,-117.6898,1.5,0.10,26,\"Southern California\"\r\nci,15474673,2,\"Monday,
+        March 10, 2014 22:59:57 UTC\",34.1333,-117.7082,1.0,7.50,16,\"Greater Los
+        Angeles area, California\"\r\nci,15474657,2,\"Monday, March 10, 2014 22:07:48
+        UTC\",36.0093,-117.5763,1.3,10.60,10,\"Central California\"\r\nnc,72182616,0,\"Monday,
+        March 10, 2014 22:04:11 UTC\",40.0128,-120.9502,1.9,2.50,12,\"Northern California\"\r\nuw,60715651,1,\"Monday,
+        March 10, 2014 21:43:35 UTC\",48.2988,-121.8488,1.1,3.90,12,\"Washington\"\r\nnc,72182601,0,\"Monday,
+        March 10, 2014 21:19:18 UTC\",38.8300,-122.7992,1.0,1.90,18,\"Northern California\"\r\nci,15474649,2,\"Monday,
+        March 10, 2014 21:17:08 UTC\",33.8565,-117.5018,1.4,0.00,15,\"Greater Los
+        Angeles area, California\"\r\nnc,72182596,3,\"Monday, March 10, 2014 21:14:27
+        UTC\",38.7885,-122.7367,2.2,2.20,70,\"Northern California\"\r\nnc,72182581,2,\"Monday,
+        March 10, 2014 20:53:12 UTC\",37.3737,-120.0627,1.9,22.20,10,\"Central California\"\r\nnc,72182571,3,\"Monday,
+        March 10, 2014 20:44:19 UTC\",38.8245,-122.8327,1.7,2.70,54,\"Northern California\"\r\npr,14069002,0,\"Monday,
+        March 10, 2014 19:48:30 UTC\",17.8659,-67.1234,2.2,15.00, 3,\"Puerto Rico
+        region\"\r\nnc,72182536,0,\"Monday, March 10, 2014 18:37:42 UTC\",38.8087,-122.8217,1.3,2.70,20,\"Northern
+        California\"\r\nci,15474633,2,\"Monday, March 10, 2014 18:35:20 UTC\",33.8148,-117.5410,1.5,8.80,29,\"Greater
+        Los Angeles area, California\"\r\nnc,72182506,0,\"Monday, March 10, 2014 16:42:57
+        UTC\",37.6618,-118.8530,1.1,4.10,11,\"Long Valley area, California\"\r\nnc,72182496,0,\"Monday,
+        March 10, 2014 16:15:52 UTC\",37.6603,-118.8525,1.6,4.80,19,\"Long Valley
+        area, California\"\r\nnc,72182491,0,\"Monday, March 10, 2014 16:13:55 UTC\",36.1880,-120.7585,1.9,7.10,16,\"Central
+        California\"\r\nnc,72182476,0,\"Monday, March 10, 2014 16:01:49 UTC\",38.8272,-122.8530,1.1,3.10,
+        8,\"Northern California\"\r\nuu,60058877,3,\"Monday, March 10, 2014 15:58:41
+        UTC\",40.7783,-110.9798,1.1,10.10,16,\"Utah\"\r\nnc,72182471,0,\"Monday, March
+        10, 2014 15:52:46 UTC\",37.6615,-118.8532,1.0,3.70,10,\"Long Valley area,
+        California\"\r\npr,14069001,0,\"Monday, March 10, 2014 15:47:13 UTC\",19.6077,-67.8960,3.6,10.00,13,\"Dominican
+        Republic region\"\r\nhv,60652956,3,\"Monday, March 10, 2014 15:25:37 UTC\",19.5443,-155.6493,1.0,6.50,14,\"Island
+        of Hawaii, Hawaii\"\r\nnc,72182456,6,\"Monday, March 10, 2014 15:16:29 UTC\",40.4483,-124.8753,3.7,7.90,84,\"offshore
+        Northern California\"\r\nnc,72182451,0,\"Monday, March 10, 2014 15:05:40 UTC\",38.7957,-122.7622,1.0,1.90,
+        8,\"Northern California\"\r\nnc,72182446,5,\"Monday, March 10, 2014 15:00:14
+        UTC\",40.4867,-125.1540,3.0,0.10,45,\"offshore Northern California\"\r\nnc,72182441,0,\"Monday,
+        March 10, 2014 14:58:43 UTC\",38.8303,-122.8657,1.5,3.60,21,\"Northern California\"\r\nnc,72182421,4,\"Monday,
+        March 10, 2014 14:42:56 UTC\",40.6568,-125.3245,3.0,23.20,48,\"offshore Northern
+        California\"\r\nnc,72182426,A,\"Monday, March 10, 2014 14:42:19 UTC\",37.4662,-118.8460,1.8,7.70,32,\"Central
+        California\"\r\nnc,72182416,1,\"Monday, March 10, 2014 14:32:59 UTC\",38.8222,-122.8428,1.2,2.40,23,\"Northern
+        California\"\r\nnc,72182411,0,\"Monday, March 10, 2014 14:23:26 UTC\",38.7672,-122.9145,1.2,4.50,10,\"Northern
+        California\"\r\nhv,60652946,5,\"Monday, March 10, 2014 14:15:28 UTC\",19.0683,-155.3690,2.8,35.40,68,\"Island
+        of Hawaii, Hawaii\"\r\nnc,72182391,5,\"Monday, March 10, 2014 13:58:40 UTC\",40.6855,-125.2918,3.3,22.60,49,\"offshore
+        Northern California\"\r\nci,15474577,2,\"Monday, March 10, 2014 13:57:31 UTC\",32.6525,-115.9398,1.4,9.90,20,\"Southern
+        California\"\r\nnc,72182361,2,\"Monday, March 10, 2014 13:01:36 UTC\",38.6628,-122.3717,1.8,8.50,40,\"Northern
+        California\"\r\nnc,72182356,6,\"Monday, March 10, 2014 12:41:01 UTC\",40.6013,-125.3248,3.1,24.30,44,\"offshore
+        Northern California\"\r\nci,15474569,2,\"Monday, March 10, 2014 11:54:19 UTC\",34.1670,-117.2770,1.1,16.90,15,\"Greater
+        Los Angeles area, California\"\r\nuw,60714901,1,\"Monday, March 10, 2014 11:34:14
+        UTC\",48.7500,-121.6660,1.1,0.00, 9,\"Washington\"\r\nnc,72182321,3,\"Monday,
+        March 10, 2014 11:06:37 UTC\",38.7918,-122.7572,1.8,1.90,58,\"Northern California\"\r\nnc,72182316,1,\"Monday,
+        March 10, 2014 10:48:50 UTC\",38.1247,-121.9052,2.2,18.30,33,\"San Francisco
+        Bay area, California\"\r\nnc,72182311,6,\"Monday, March 10, 2014 10:46:22
+        UTC\",40.6612,-125.2980,3.5,22.00,75,\"offshore Northern California\"\r\nnc,72182306,8,\"Monday,
+        March 10, 2014 10:28:18 UTC\",40.7778,-125.1915,4.5,19.30,92,\"offshore Northern
+        California\"\r\nnc,72182301,3,\"Monday, March 10, 2014 10:23:35 UTC\",40.5092,-125.1082,2.3,0.80,18,\"offshore
+        Northern California\"\r\nnc,72182296,5,\"Monday, March 10, 2014 10:18:07 UTC\",40.7192,-125.2102,3.2,24.40,57,\"offshore
+        Northern California\"\r\nnc,72182291,3,\"Monday, March 10, 2014 09:57:33 UTC\",40.3855,-124.4930,2.5,23.50,
+        8,\"offshore Northern California\"\r\nnc,72182286,3,\"Monday, March 10, 2014
+        09:56:23 UTC\",40.5202,-125.0407,2.7,2.20,35,\"offshore Northern California\"\r\nnc,72182281,2,\"Monday,
+        March 10, 2014 09:54:29 UTC\",38.8102,-122.7918,1.2,3.60,46,\"Northern California\"\r\nnc,72182276,6,\"Monday,
+        March 10, 2014 09:54:26 UTC\",40.8262,-125.1218,3.7,21.40,67,\"offshore Northern
+        California\"\r\nnc,72182266,6,\"Monday, March 10, 2014 09:42:42 UTC\",40.7638,-125.2100,3.6,24.50,72,\"offshore
+        Northern California\"\r\nnc,72182271,3,\"Monday, March 10, 2014 09:41:51 UTC\",40.6563,-125.0150,2.5,4.10,35,\"offshore
+        Northern California\"\r\nci,15474553,2,\"Monday, March 10, 2014 09:39:17 UTC\",33.4568,-116.4125,1.1,12.20,21,\"Southern
+        California\"\r\nnc,72182261,3,\"Monday, March 10, 2014 09:36:18 UTC\",40.6292,-125.3567,2.7,24.80,22,\"offshore
+        Northern California\"\r\nnc,72182251,2,\"Monday, March 10, 2014 09:15:08 UTC\",40.4512,-121.4885,1.3,4.40,10,\"Lassen
+        Peak area, California\"\r\nnc,72182246,3,\"Monday, March 10, 2014 09:10:52
+        UTC\",40.7295,-125.1543,2.6,24.70,26,\"offshore Northern California\"\r\nnc,72182221,3,\"Monday,
+        March 10, 2014 08:47:33 UTC\",40.5825,-125.3052,2.8,24.10,24,\"offshore Northern
+        California\"\r\nnc,72182211,3,\"Monday, March 10, 2014 08:35:51 UTC\",40.7358,-125.1997,2.5,15.70,16,\"offshore
+        Northern California\"\r\nci,15474537,2,\"Monday, March 10, 2014 08:26:00 UTC\",33.9748,-116.6195,1.2,16.80,19,\"Southern
+        California\"\r\nnc,72182206,1,\"Monday, March 10, 2014 08:12:55 UTC\",38.8115,-122.8230,1.5,2.70,22,\"Northern
+        California\"\r\nnc,72182201,5,\"Monday, March 10, 2014 07:49:00 UTC\",40.7282,-125.2223,3.0,24.10,61,\"offshore
+        Northern California\"\r\nnc,72182191,2,\"Monday, March 10, 2014 07:44:05 UTC\",40.5388,-125.0658,2.7,0.60,16,\"offshore
+        Northern California\"\r\nnc,72182196,3,\"Monday, March 10, 2014 07:43:12 UTC\",40.4615,-125.2347,2.3,4.70,12,\"offshore
+        Northern California\"\r\nnc,72182186,3,\"Monday, March 10, 2014 07:37:05 UTC\",40.4388,-125.2542,2.9,4.90,17,\"offshore
+        Northern California\"\r\nnc,72182181,1,\"Monday, March 10, 2014 07:31:14 UTC\",36.6245,-121.1007,1.9,6.80,28,\"Central
+        California\"\r\nnc,72182176,5,\"Monday, March 10, 2014 07:15:36 UTC\",40.6837,-125.1208,3.0,9.50,31,\"offshore
+        Northern California\"\r\nnc,72182171,2,\"Monday, March 10, 2014 06:58:44 UTC\",40.5678,-125.0587,2.7,0.00,32,\"offshore
+        Northern California\"\r\nnc,72182166,3,\"Monday, March 10, 2014 06:51:19 UTC\",40.5600,-125.4370,2.9,19.50,17,\"offshore
+        Northern California\"\r\nnc,72182161,3,\"Monday, March 10, 2014 06:47:17 UTC\",40.5210,-125.2427,3.0,21.20,17,\"offshore
+        Northern California\"\r\nnc,72182156,3,\"Monday, March 10, 2014 06:41:49 UTC\",40.5012,-125.1023,2.8,0.50,32,\"offshore
+        Northern California\"\r\nnc,72182151,2,\"Monday, March 10, 2014 06:39:10 UTC\",40.7295,-124.8723,2.5,4.80,29,\"offshore
+        Northern California\"\r\nuw,60714841,1,\"Monday, March 10, 2014 06:37:13 UTC\",46.4057,-119.2618,1.0,0.00,20,\"Washington\"\r\nnc,72182146,3,\"Monday,
+        March 10, 2014 06:30:03 UTC\",40.5523,-125.1645,2.6,11.20,26,\"offshore Northern
+        California\"\r\nnc,72182136,3,\"Monday, March 10, 2014 06:22:45 UTC\",40.7188,-124.9372,3.3,3.50,28,\"offshore
+        Northern California\"\r\nnc,72182131,5,\"Monday, March 10, 2014 06:21:15 UTC\",40.5710,-125.3667,3.2,10.00,33,\"offshore
+        Northern California\"\r\nnc,72182126,5,\"Monday, March 10, 2014 06:13:07 UTC\",40.5937,-125.3300,2.6,18.00,21,\"offshore
+        Northern California\"\r\nnc,72182121,3,\"Monday, March 10, 2014 06:12:23 UTC\",40.7232,-125.2292,2.8,24.30,33,\"offshore
+        Northern California\"\r\nnc,72182116,3,\"Monday, March 10, 2014 05:57:30 UTC\",40.8337,-125.0680,2.8,22.10,37,\"offshore
+        Northern California\"\r\nnc,72182111,0,\"Monday, March 10, 2014 05:55:29 UTC\",38.7667,-122.7298,1.3,2.30,
+        8,\"Northern California\"\r\nnc,72182106,6,\"Monday, March 10, 2014 05:51:10
+        UTC\",40.6212,-125.3605,4.4,18.80,76,\"offshore Northern California\"\r\nnc,72182096,0,\"Monday,
+        March 10, 2014 05:43:31 UTC\",37.0218,-121.7590,1.3,13.20,13,\"Northern California\"\r\nnc,72182101,6,\"Monday,
+        March 10, 2014 05:43:26 UTC\",40.4813,-125.1077,2.9,1.50,31,\"offshore Northern
+        California\"\r\nnc,72182091,6,\"Monday, March 10, 2014 05:41:47 UTC\",40.7442,-125.2092,3.0,24.60,42,\"offshore
+        Northern California\"\r\nnc,72182086,4,\"Monday, March 10, 2014 05:36:39 UTC\",40.5740,-125.3507,3.8,17.30,26,\"offshore
+        Northern California\"\r\nnc,72182081,5,\"Monday, March 10, 2014 05:32:14 UTC\",40.6522,-125.4050,3.4,10.70,38,\"offshore
+        Northern California\"\r\nnc,72182046,G,\"Monday, March 10, 2014 05:18:13 UTC\",40.8287,-125.1338,6.8,16.60,116,\"offshore
+        Northern California\"\r\nnc,72182036,0,\"Monday, March 10, 2014 05:09:20 UTC\",38.8347,-122.7917,1.2,2.60,14,\"Northern
+        California\"\r\nhv,60652846,5,\"Monday, March 10, 2014 05:06:03 UTC\",19.3817,-155.2363,2.8,1.70,53,\"Island
+        of Hawaii, Hawaii\"\r\nnc,72182031,5,\"Monday, March 10, 2014 05:04:12 UTC\",40.8142,-125.1115,3.1,23.20,62,\"offshore
+        Northern California\"\r\nnc,72182026,0,\"Monday, March 10, 2014 04:50:09 UTC\",36.5788,-121.1803,1.3,7.00,14,\"Central
+        California\"\r\nnc,72182016,0,\"Monday, March 10, 2014 04:32:03 UTC\",38.8283,-122.7523,1.2,1.00,14,\"Northern
+        California\"\r\nci,15474473,2,\"Monday, March 10, 2014 04:27:35 UTC\",33.1312,-116.4743,1.1,12.20,23,\"Southern
+        California\"\r\nnc,72182001,3,\"Monday, March 10, 2014 04:17:53 UTC\",40.2403,-123.4285,2.7,32.70,38,\"Northern
+        California\"\r\npr,14069000,0,\"Monday, March 10, 2014 04:12:51 UTC\",17.2198,-68.0589,3.1,29.00,10,\"Dominican
+        Republic region\"\r\nnc,72181996,0,\"Monday, March 10, 2014 04:08:33 UTC\",37.5080,-118.7457,1.4,10.50,17,\"Central
+        California\"\r\nhv,60652796,5,\"Monday, March 10, 2014 04:03:48 UTC\",19.3890,-155.2480,1.5,2.60,39,\"Island
+        of Hawaii, Hawaii\"\r\nhv,60652791,1,\"Monday, March 10, 2014 04:02:03 UTC\",19.4107,-155.2687,2.0,4.00,25,\"Island
+        of Hawaii, Hawaii\"\r\nci,15474465,2,\"Monday, March 10, 2014 03:44:31 UTC\",36.0457,-117.5812,1.4,0.90,17,\"Central
+        California\"\r\nci,15474457,2,\"Monday, March 10, 2014 03:35:56 UTC\",33.3708,-116.3545,1.0,11.30,29,\"Southern
+        California\"\r\nnc,72181981,0,\"Monday, March 10, 2014 02:57:56 UTC\",36.7357,-121.4330,1.0,6.10,13,\"Central
+        California\"\r\nuw,60714761,2,\"Monday, March 10, 2014 02:48:43 UTC\",46.3217,-122.3987,1.6,13.90,40,\"Washington\"\r\nci,15474441,2,\"Monday,
+        March 10, 2014 02:30:01 UTC\",36.0477,-117.5787,1.5,1.00,20,\"Central California\"\r\nci,15474433,2,\"Monday,
+        March 10, 2014 02:27:22 UTC\",34.3843,-118.5055,1.6,1.50,16,\"Greater Los
+        Angeles area, California\"\r\nci,15474417,2,\"Monday, March 10, 2014 01:58:11
+        UTC\",34.4610,-118.5897,2.0,0.00,22,\"Greater Los Angeles area, California\"\r\nuw,60714746,2,\"Monday,
+        March 10, 2014 01:49:35 UTC\",46.2515,-123.2158,1.2,27.30,29,\"Washington\"\r\nnc,72181956,4,\"Monday,
+        March 10, 2014 01:43:38 UTC\",37.5070,-122.3272,1.6,5.70,20,\"San Francisco
+        Bay area, California\"\r\nhv,60652741,5,\"Monday, March 10, 2014 01:42:17
+        UTC\",19.3873,-155.2520,1.9,1.60,31,\"Island of Hawaii, Hawaii\"\r\nci,15474409,2,\"Monday,
+        March 10, 2014 01:38:10 UTC\",36.3297,-118.0918,1.7,5.60, 7,\"Central California\"\r\nci,15474393,2,\"Monday,
+        March 10, 2014 01:26:00 UTC\",33.2802,-116.7173,1.2,22.40,26,\"Southern California\"\r\nnc,72181951,0,\"Monday,
+        March 10, 2014 01:24:44 UTC\",37.4672,-118.8432,1.2,8.00,11,\"Central California\"\r\nnc,72181946,2,\"Monday,
+        March 10, 2014 01:17:20 UTC\",40.5900,-124.0855,2.0,20.90,12,\"Northern California\"\r\nuu,60058837,2,\"Monday,
+        March 10, 2014 00:52:58 UTC\",44.8025,-110.7623,1.1,2.40,10,\"Yellowstone
+        National Park, Wyoming\"\r\nuu,60058832,5,\"Monday, March 10, 2014 00:52:58
+        UTC\",44.7892,-110.7608,1.7,2.90,13,\"Yellowstone National Park, Wyoming\"\r\nci,15474385,2,\"Monday,
+        March 10, 2014 00:46:58 UTC\",33.9712,-118.4008,1.8,11.20,22,\"Greater Los
+        Angeles area, California\"\r\nnc,72181931,0,\"Monday, March 10, 2014 00:42:12
+        UTC\",38.8222,-122.7925,1.2,3.20,12,\"Northern California\"\r\nci,15474369,2,\"Monday,
+        March 10, 2014 00:36:14 UTC\",35.5337,-117.5005,2.1,7.80,31,\"Southern California\"\r\npr,14068007,0,\"Sunday,
+        March  9, 2014 23:31:39 UTC\",19.6823,-67.8988,3.1,32.00, 7,\"Dominican Republic
+        region\"\r\nuw,60714686,1,\"Sunday, March  9, 2014 23:18:04 UTC\",49.4242,-120.5110,2.5,0.00,12,\"British
+        Columbia, Canada\"\r\npr,14068005,0,\"Sunday, March  9, 2014 22:38:01 UTC\",18.5818,-66.7642,2.3,22.00,11,\"Puerto
+        Rico region\"\r\nci,15474289,2,\"Sunday, March  9, 2014 22:18:10 UTC\",33.6987,-116.8052,1.4,18.00,38,\"Southern
+        California\"\r\npr,14068006,0,\"Sunday, March  9, 2014 22:02:40 UTC\",19.5287,-68.0692,3.5,75.00,18,\"Dominican
+        Republic region\"\r\nhv,60652621,5,\"Sunday, March  9, 2014 22:02:08 UTC\",19.4842,-155.8430,1.4,15.80,15,\"Island
+        of Hawaii, Hawaii\"\r\nci,15474281,2,\"Sunday, March  9, 2014 21:58:55 UTC\",33.9927,-118.3575,1.7,0.00,10,\"Greater
+        Los Angeles area, California\"\r\nnc,72181831,0,\"Sunday, March  9, 2014 21:27:31
+        UTC\",38.8065,-122.8138,1.0,2.90,16,\"Northern California\"\r\nnc,72181826,1,\"Sunday,
+        March  9, 2014 21:15:13 UTC\",38.7927,-122.7455,1.6,1.20,28,\"Northern California\"\r\nnc,72181816,1,\"Sunday,
+        March  9, 2014 21:08:35 UTC\",38.8223,-122.8430,1.4,2.50,27,\"Northern California\"\r\nhv,60652571,2,\"Sunday,
+        March  9, 2014 20:56:32 UTC\",19.3822,-155.2428,2.1,3.70,41,\"Island of Hawaii,
+        Hawaii\"\r\nhv,60652561,4,\"Sunday, March  9, 2014 20:44:07 UTC\",19.3877,-155.2465,3.6,2.80,74,\"Island
+        of Hawaii, Hawaii\"\r\nci,15474265,2,\"Sunday, March  9, 2014 20:25:52 UTC\",32.6282,-115.7248,1.7,6.10,18,\"Baja
+        California, Mexico\"\r\npr,14068004,0,\"Sunday, March  9, 2014 19:46:26 UTC\",18.7266,-64.9961,2.5,31.00,
+        9,\"Virgin Islands region\"\r\nnc,72181801,1,\"Sunday, March  9, 2014 19:17:42
+        UTC\",38.8068,-122.8217,1.5,2.60,25,\"Northern California\"\r\nnc,72181796,3,\"Sunday,
+        March  9, 2014 19:13:45 UTC\",40.5833,-124.0862,2.5,18.80,27,\"Northern California\"\r\nci,15474209,2,\"Sunday,
+        March  9, 2014 19:03:39 UTC\",36.1080,-117.8655,1.4,5.80, 8,\"Central California\"\r\nci,15474201,2,\"Sunday,
+        March  9, 2014 18:59:48 UTC\",36.1010,-117.8442,3.2,2.20,31,\"Central California\"\r\npr,14068003,0,\"Sunday,
+        March  9, 2014 18:58:33 UTC\",19.0650,-66.8375,2.7,48.00,11,\"Puerto Rico
+        region\"\r\nci,15474193,2,\"Sunday, March  9, 2014 18:33:12 UTC\",33.9323,-116.3428,1.6,6.90,26,\"Southern
+        California\"\r\nnc,72181771,0,\"Sunday, March  9, 2014 18:22:04 UTC\",38.8290,-122.8042,1.0,2.60,17,\"Northern
+        California\"\r\nnc,72181761,1,\"Sunday, March  9, 2014 18:18:15 UTC\",38.8357,-122.8042,1.3,2.90,24,\"Northern
+        California\"\r\nci,15474185,2,\"Sunday, March  9, 2014 18:14:25 UTC\",33.9283,-116.3370,1.2,2.70,16,\"Southern
+        California\"\r\nnc,72181756,1,\"Sunday, March  9, 2014 18:09:05 UTC\",38.7802,-122.7570,1.4,1.70,24,\"Northern
+        California\"\r\nnc,72181751,0,\"Sunday, March  9, 2014 17:57:30 UTC\",38.8188,-122.7640,1.0,2.50,16,\"Northern
+        California\"\r\npr,14068002,0,\"Sunday, March  9, 2014 17:01:02 UTC\",18.9223,-64.2200,2.7,33.00,10,\"Virgin
+        Islands region\"\r\nci,15474169,2,\"Sunday, March  9, 2014 16:35:51 UTC\",32.6458,-115.7357,2.4,9.80,20,\"Southern
+        California\"\r\nci,15474145,2,\"Sunday, March  9, 2014 15:07:21 UTC\",34.0323,-117.2337,1.6,15.90,22,\"Greater
+        Los Angeles area, California\"\r\nci,15474129,2,\"Sunday, March  9, 2014 14:53:37
+        UTC\",33.9405,-116.7692,1.2,16.90,29,\"Southern California\"\r\nci,15474105,2,\"Sunday,
+        March  9, 2014 12:43:31 UTC\",36.0995,-117.8478,1.3,3.30,10,\"Central California\"\r\nhv,60652406,5,\"Sunday,
+        March  9, 2014 12:33:44 UTC\",19.7697,-155.8342,3.1,14.50,39,\"Island of Hawaii,
+        Hawaii\"\r\nci,15474081,2,\"Sunday, March  9, 2014 11:59:13 UTC\",36.0853,-117.6500,1.1,3.60,11,\"Central
+        California\"\r\nnc,72181606,1,\"Sunday, March  9, 2014 11:53:30 UTC\",38.8107,-122.8242,1.2,2.50,24,\"Northern
+        California\"\r\nci,15474073,2,\"Sunday, March  9, 2014 11:50:42 UTC\",35.4900,-118.2883,1.2,2.20,21,\"Central
+        California\"\r\nnc,72181586,0,\"Sunday, March  9, 2014 11:34:52 UTC\",37.6300,-118.8747,1.1,8.50,16,\"Long
+        Valley area, California\"\r\nnc,72181581,0,\"Sunday, March  9, 2014 11:32:45
+        UTC\",37.6320,-118.8762,1.4,9.00,19,\"Long Valley area, California\"\r\nnc,72181576,3,\"Sunday,
+        March  9, 2014 11:25:07 UTC\",36.5473,-121.1290,1.9,8.60,63,\"Central California\"\r\nnc,72181561,7,\"Sunday,
+        March  9, 2014 10:48:16 UTC\",39.2352,-122.7093,1.7,10.70,30,\"Northern California\"\r\nnc,72181556,2,\"Sunday,
+        March  9, 2014 10:37:18 UTC\",39.2338,-122.7067,2.1,11.50,31,\"Northern California\"\r\nnc,72181551,0,\"Sunday,
+        March  9, 2014 10:27:03 UTC\",37.4682,-118.7910,1.5,14.70,14,\"Central California\"\r\nnc,72181541,0,\"Sunday,
+        March  9, 2014 10:14:29 UTC\",37.6312,-118.8738,1.1,8.70,14,\"Long Valley
+        area, California\"\r\nhv,60652356,2,\"Sunday, March  9, 2014 10:14:13 UTC\",19.3832,-155.2488,2.2,2.90,47,\"Island
+        of Hawaii, Hawaii\"\r\nnc,72181501,3,\"Sunday, March  9, 2014 09:20:59 UTC\",36.0157,-120.5773,1.8,4.10,61,\"Central
+        California\"\r\nnc,72181496,0,\"Sunday, March  9, 2014 09:12:56 UTC\",36.0220,-120.6057,1.4,2.20,15,\"Central
+        California\"\r\nci,15474057,2,\"Sunday, March  9, 2014 09:12:53 UTC\",33.4695,-116.9330,1.5,8.40,42,\"Southern
+        California\"\r\nci,15474049,2,\"Sunday, March  9, 2014 08:18:36 UTC\",33.8870,-117.0527,2.2,16.00,79,\"Southern
+        California\"\r\nnc,72181466,1,\"Sunday, March  9, 2014 08:11:20 UTC\",38.8272,-122.8525,1.6,2.70,27,\"Northern
+        California\"\r\nci,15474041,2,\"Sunday, March  9, 2014 07:58:09 UTC\",33.3720,-116.3562,1.1,9.40,19,\"Southern
+        California\"\r\nhv,60652311,5,\"Sunday, March  9, 2014 07:06:10 UTC\",19.3873,-155.2448,2.1,3.00,50,\"Island
+        of Hawaii, Hawaii\"\r\nnc,72181456,3,\"Sunday, March  9, 2014 06:59:34 UTC\",40.4487,-123.5740,1.6,7.20,15,\"Northern
+        California\"\r\nci,15474033,2,\"Sunday, March  9, 2014 06:58:03 UTC\",33.5188,-116.5727,1.7,15.10,49,\"Southern
+        California\"\r\nci,15474025,2,\"Sunday, March  9, 2014 06:42:41 UTC\",33.8927,-116.8358,1.2,15.90,12,\"Southern
+        California\"\r\nhv,60652291,3,\"Sunday, March  9, 2014 06:19:44 UTC\",19.9415,-155.5042,2.0,32.80,26,\"Island
+        of Hawaii, Hawaii\"\r\nuu,60058767,2,\"Sunday, March  9, 2014 05:44:42 UTC\",44.8383,-110.6583,1.3,11.50,14,\"Yellowstone
+        National Park, Wyoming\"\r\nuu,60058757,6,\"Sunday, March  9, 2014 05:41:31
+        UTC\",44.8035,-110.5375,1.8,7.20,27,\"Yellowstone National Park, Wyoming\"\r\nnc,72181426,3,\"Sunday,
+        March  9, 2014 05:39:56 UTC\",36.8885,-121.3183,2.1,7.50,74,\"Central California\"\r\nnc,72181421,0,\"Sunday,
+        March  9, 2014 05:37:25 UTC\",36.5480,-121.1313,1.8,8.70,17,\"Central California\"\r\nuu,60058752,5,\"Sunday,
+        March  9, 2014 05:37:05 UTC\",44.8248,-110.5095,1.0,5.80,14,\"Yellowstone
+        National Park, Wyoming\"\r\nnc,72181416,0,\"Sunday, March  9, 2014 05:34:35
+        UTC\",38.8223,-122.8438,1.3,2.40,21,\"Northern California\"\r\nnc,72181401,1,\"Sunday,
+        March  9, 2014 05:30:19 UTC\",38.5163,-122.4820,2.0,8.10,24,\"Northern California\"\r\nnc,72181406,0,\"Sunday,
+        March  9, 2014 05:29:43 UTC\",37.6333,-118.8770,1.1,8.90,13,\"Long Valley
+        area, California\"\r\nhv,60652271,1,\"Sunday, March  9, 2014 05:19:10 UTC\",19.2607,-155.1248,2.3,42.70,63,\"Island
+        of Hawaii, Hawaii\"\r\nnc,72181391,2,\"Sunday, March  9, 2014 04:51:16 UTC\",40.4697,-121.5235,1.4,4.60,11,\"Lassen
+        Peak area, California\"\r\nnc,72181381,0,\"Sunday, March  9, 2014 04:37:25
+        UTC\",38.8372,-122.7765,1.0,1.80,14,\"Northern California\"\r\npr,14068001,0,\"Sunday,
+        March  9, 2014 04:31:26 UTC\",19.1781,-66.7575,2.9,36.00,12,\"Puerto Rico
+        region\"\r\nci,15473993,2,\"Sunday, March  9, 2014 04:30:19 UTC\",34.5002,-118.8125,1.9,0.50,30,\"Southern
+        California\"\r\nnc,72181366,0,\"Sunday, March  9, 2014 04:29:49 UTC\",38.7980,-122.8035,1.0,3.30,15,\"Northern
+        California\"\r\nnc,72181356,0,\"Sunday, March  9, 2014 04:28:11 UTC\",38.7532,-122.7397,1.1,1.70,16,\"Northern
+        California\"\r\nnc,72181351,5,\"Sunday, March  9, 2014 04:25:40 UTC\",38.8075,-122.7993,2.8,3.40,90,\"Northern
+        California\"\r\nnc,72181341,0,\"Sunday, March  9, 2014 03:14:08 UTC\",37.6308,-118.8753,1.1,8.90,16,\"Long
+        Valley area, California\"\r\nnc,72181336,0,\"Sunday, March  9, 2014 03:08:14
+        UTC\",37.6320,-118.8763,1.7,8.80,20,\"Long Valley area, California\"\r\nci,15473953,2,\"Sunday,
+        March  9, 2014 02:40:57 UTC\",36.0495,-117.5847,1.1,1.00,11,\"Central California\"\r\npr,14068000,0,\"Sunday,
+        March  9, 2014 02:39:24 UTC\",18.9137,-63.8086,2.8,45.00, 8,\"Virgin Islands
+        region\"\r\nci,15473945,2,\"Sunday, March  9, 2014 02:34:15 UTC\",36.0408,-117.5822,2.0,0.10,24,\"Central
+        California\"\r\nnc,72181316,1,\"Sunday, March  9, 2014 02:29:43 UTC\",36.8903,-121.6175,1.9,5.00,36,\"Central
+        California\"\r\nci,15473937,2,\"Sunday, March  9, 2014 02:27:16 UTC\",36.0413,-117.5775,2.7,0.00,31,\"Central
+        California\"\r\nhv,60652186,1,\"Sunday, March  9, 2014 01:39:45 UTC\",19.3232,-155.8638,1.8,5.70,55,\"Island
+        of Hawaii, Hawaii\"\r\nhv,60652166,2,\"Sunday, March  9, 2014 01:11:16 UTC\",19.3828,-155.2405,2.2,3.00,38,\"Island
+        of Hawaii, Hawaii\"\r\nci,15473929,2,\"Sunday, March  9, 2014 00:23:58 UTC\",33.2258,-116.1998,1.7,7.20,50,\"Southern
+        California\"\r\nhv,60652131,2,\"Sunday, March  9, 2014 00:00:31 UTC\",19.3872,-155.2378,2.2,3.40,38,\"Island
+        of Hawaii, Hawaii\"\r\nhv,60652111,2,\"Saturday, March  8, 2014 23:51:12 UTC\",19.3872,-155.2407,2.2,3.40,44,\"Island
+        of Hawaii, Hawaii\"\r\nci,15473921,2,\"Saturday, March  8, 2014 23:07:34 UTC\",35.6693,-118.4658,1.3,9.00,
+        9,\"Central California\"\r\nnc,72181226,0,\"Saturday, March  8, 2014 22:33:30
+        UTC\",37.6298,-118.8760,1.4,8.70,20,\"Long Valley area, California\"\r\nnc,72181211,1,\"Saturday,
+        March  8, 2014 22:10:43 UTC\",38.7877,-122.7270,1.5,2.60,21,\"Northern California\"\r\nci,15473897,2,\"Saturday,
+        March  8, 2014 21:41:33 UTC\",35.8698,-117.1605,1.6,2.80,16,\"Central California\"\r\nnc,72181146,4,\"Saturday,
+        March  8, 2014 20:58:41 UTC\",40.3963,-124.5763,2.2,22.60,28,\"offshore Northern
+        California\"\r\nnc,72181141,3,\"Saturday, March  8, 2014 20:51:53 UTC\",40.4337,-124.5645,2.6,21.80,37,\"offshore
+        Northern California\"\r\nuu,60058732,4,\"Saturday, March  8, 2014 20:44:16
+        UTC\",37.5183,-114.0708,1.2,3.80,12,\"Nevada\"\r\nnc,72181131,3,\"Saturday,
+        March  8, 2014 20:24:01 UTC\",39.7828,-123.5678,1.9,7.50,27,\"Northern California\"\r\nnc,72181121,0,\"Saturday,
+        March  8, 2014 20:15:02 UTC\",38.7803,-122.7553,1.1,1.40,16,\"Northern California\"\r\nnc,72181116,5,\"Saturday,
+        March  8, 2014 20:07:25 UTC\",40.2892,-124.3962,2.8,20.30,23,\"offshore Northern
+        California\"\r\nnc,72181111,3,\"Saturday, March  8, 2014 20:03:37 UTC\",40.5017,-123.9738,1.7,28.10,23,\"Northern
+        California\"\r\nci,15473881,2,\"Saturday, March  8, 2014 20:00:01 UTC\",33.7177,-116.7440,1.0,19.40,22,\"Southern
+        California\"\r\nnc,72181106,4,\"Saturday, March  8, 2014 19:53:41 UTC\",39.8287,-123.1303,1.5,3.00,31,\"Northern
+        California\"\r\nnc,72181096,0,\"Saturday, March  8, 2014 19:47:46 UTC\",36.1053,-120.6758,1.5,8.40,16,\"Central
+        California\"\r\nnc,72181091,0,\"Saturday, March  8, 2014 19:41:31 UTC\",36.5160,-121.1015,1.3,4.90,
+        7,\"Central California\"\r\nci,15473865,2,\"Saturday, March  8, 2014 19:24:42
+        UTC\",35.9615,-117.3370,2.1,4.10,21,\"Central California\"\r\nnc,72181076,1,\"Saturday,
+        March  8, 2014 19:16:08 UTC\",38.8078,-122.8197,1.2,3.20,23,\"Northern California\"\r\nnc,72181066,0,\"Saturday,
+        March  8, 2014 19:01:39 UTC\",37.6343,-118.8750,1.0,8.30, 8,\"Long Valley
+        area, California\"\r\nnc,72181061,0,\"Saturday, March  8, 2014 18:58:45 UTC\",37.6315,-118.8772,1.5,8.80,22,\"Long
+        Valley area, California\"\r\nnc,72181051,0,\"Saturday, March  8, 2014 18:43:03
+        UTC\",37.1270,-118.4443,1.5,14.10,10,\"Central California\"\r\nuu,60058712,5,\"Saturday,
+        March  8, 2014 18:41:30 UTC\",44.8200,-111.0313,1.3,7.80,17,\"Yellowstone
+        National Park, Wyoming\"\r\nnc,72181046,1,\"Saturday, March  8, 2014 18:33:21
+        UTC\",38.8115,-122.8288,1.6,2.80,28,\"Northern California\"\r\nnc,72181031,3,\"Saturday,
+        March  8, 2014 17:46:57 UTC\",39.4093,-123.3627,2.2,4.50,34,\"Northern California\"\r\nci,15473833,2,\"Saturday,
+        March  8, 2014 17:33:43 UTC\",33.3438,-116.4225,1.0,4.80,18,\"Southern California\"\r\nnc,72180986,0,\"Saturday,
+        March  8, 2014 16:33:36 UTC\",38.8198,-122.8115,1.1,3.40,23,\"Northern California\"\r\nnc,72180981,0,\"Saturday,
+        March  8, 2014 15:51:47 UTC\",38.8342,-122.7900,1.1,2.80,15,\"Northern California\"\r\nci,15473809,2,\"Saturday,
+        March  8, 2014 14:18:21 UTC\",33.6607,-116.7220,1.1,14.60,15,\"Southern California\"\r\npr,14067012,0,\"Saturday,
+        March  8, 2014 14:15:26 UTC\",19.2339,-66.8647,2.8,39.00, 8,\"Puerto Rico
+        region\"\r\nhv,60652001,1,\"Saturday, March  8, 2014 14:04:51 UTC\",19.3975,-155.0243,2.1,1.50,48,\"Island
+        of Hawaii, Hawaii\"\r\nuu,60058697,6,\"Saturday, March  8, 2014 13:08:34 UTC\",39.2360,-110.4175,1.2,14.70,12,\"Utah\"\r\nnc,72180946,8,\"Saturday,
+        March  8, 2014 12:53:20 UTC\",36.3975,-121.9212,3.4,9.20,127,\"offshore Central
+        California\"\r\nuu,60058687,6,\"Saturday, March  8, 2014 12:32:00 UTC\",44.7942,-110.6377,1.7,5.40,23,\"Yellowstone
+        National Park, Wyoming\"\r\nci,15473785,2,\"Saturday, March  8, 2014 11:43:42
+        UTC\",33.2827,-116.8262,1.1,9.30,19,\"Southern California\"\r\nnc,72180931,0,\"Saturday,
+        March  8, 2014 11:39:42 UTC\",38.8098,-122.7380,1.4,2.80,18,\"Northern California\"\r\nnc,72180921,0,\"Saturday,
+        March  8, 2014 11:36:18 UTC\",37.3982,-119.6905,1.7,19.80, 6,\"Central California\"\r\nci,15473777,2,\"Saturday,
+        March  8, 2014 11:22:52 UTC\",35.7530,-117.7392,1.4,6.10,19,\"Southern California\"\r\nnc,72180906,3,\"Saturday,
+        March  8, 2014 10:45:44 UTC\",36.7928,-121.1908,2.4,8.30,72,\"Central California\"\r\nnc,72180896,0,\"Saturday,
+        March  8, 2014 10:33:33 UTC\",38.8370,-122.8283,1.4,2.70,20,\"Northern California\"\r\npr,14067011,0,\"Saturday,
+        March  8, 2014 10:22:49 UTC\",19.7558,-66.9763,3.0,41.00, 3,\"Puerto Rico
+        region\"\r\npr,14067010,0,\"Saturday, March  8, 2014 10:03:50 UTC\",17.8980,-66.7979,2.5,9.00,
+        8,\"Puerto Rico region\"\r\nhv,60651951,3,\"Saturday, March  8, 2014 09:41:05
+        UTC\",20.1662,-155.4728,2.2,41.10,38,\"Hawaii region, Hawaii\"\r\npr,14067009,0,\"Saturday,
+        March  8, 2014 09:35:40 UTC\",19.4691,-67.6877,3.4,64.00,13,\"Puerto Rico
+        region\"\r\nnc,72180886,0,\"Saturday, March  8, 2014 09:26:35 UTC\",36.8480,-121.3175,1.1,5.60,10,\"Central
+        California\"\r\nnc,72180876,0,\"Saturday, March  8, 2014 09:17:55 UTC\",38.8202,-122.7653,1.3,2.30,17,\"Northern
+        California\"\r\nnc,72180871,4,\"Saturday, March  8, 2014 08:49:48 UTC\",40.5852,-124.0857,2.0,18.50,33,\"Northern
+        California\"\r\nnc,72180866,1,\"Saturday, March  8, 2014 08:42:17 UTC\",38.8225,-122.8443,1.5,2.50,25,\"Northern
+        California\"\r\nnc,72180861,1,\"Saturday, March  8, 2014 08:40:21 UTC\",38.8235,-122.8263,1.3,2.90,22,\"Northern
+        California\"\r\npr,14067008,0,\"Saturday, March  8, 2014 08:04:24 UTC\",18.1205,-68.2525,3.0,44.00,12,\"Mona
+        Passage, Dominican Republic\"\r\nnc,72180846,1,\"Saturday, March  8, 2014
+        07:43:44 UTC\",37.5227,-118.8217,2.0,7.20,28,\"Central California\"\r\nnc,72180841,1,\"Saturday,
+        March  8, 2014 07:39:22 UTC\",38.7863,-122.7650,1.4,2.20,23,\"Northern California\"\r\nnc,72180826,0,\"Saturday,
+        March  8, 2014 07:13:25 UTC\",38.7715,-122.7167,1.1,2.50,11,\"Northern California\"\r\nuw,60714031,2,\"Saturday,
+        March  8, 2014 07:13:22 UTC\",46.8520,-121.7560,1.3,4.10,17,\"Mount Rainier
+        area, Washington\"\r\nci,15473745,2,\"Saturday, March  8, 2014 06:55:13 UTC\",35.6643,-118.4680,2.5,10.00,32,\"Central
+        California\"\r\npr,14067006,0,\"Saturday, March  8, 2014 06:34:27 UTC\",19.5690,-67.8184,3.4,36.00,14,\"Dominican
+        Republic region\"\r\npr,14067005,0,\"Saturday, March  8, 2014 05:57:10 UTC\",18.0988,-66.8612,1.8,23.00,
+        9,\"Puerto Rico\"\r\nuw,60713941,1,\"Saturday, March  8, 2014 05:31:14 UTC\",47.7665,-122.1280,1.1,31.10,10,\"Seattle-Tacoma
+        urban area, Washington\"\r\npr,14067007,0,\"Saturday, March  8, 2014 04:55:51
+        UTC\",19.4916,-67.8974,2.8,36.00, 4,\"Dominican Republic region\"\r\nci,15473729,2,\"Saturday,
+        March  8, 2014 04:16:31 UTC\",33.9717,-118.4318,3.2,10.00,95,\"Greater Los
+        Angeles area, California\"\r\npr,14067004,0,\"Saturday, March  8, 2014 04:05:59
+        UTC\",19.4890,-67.9505,2.9,45.00, 9,\"Dominican Republic region\"\r\nhv,60651856,3,\"Saturday,
+        March  8, 2014 04:03:32 UTC\",19.3358,-155.1117,1.9,44.10,52,\"Island of Hawaii,
+        Hawaii\"\r\npr,14067003,2,\"Saturday, March  8, 2014 03:50:22 UTC\",19.5981,-67.8294,3.9,43.00,21,\"Dominican
+        Republic region\"\r\nnc,72180756,0,\"Saturday, March  8, 2014 03:27:21 UTC\",38.7607,-122.7328,1.0,2.50,15,\"Northern
+        California\"\r\nnc,72180751,5,\"Saturday, March  8, 2014 02:47:10 UTC\",39.3613,-123.2763,1.7,7.70,22,\"Northern
+        California\"\r\nnc,72180741,0,\"Saturday, March  8, 2014 02:41:56 UTC\",38.8388,-122.8367,1.2,2.10,23,\"Northern
+        California\"\r\nuu,60058682,5,\"Saturday, March  8, 2014 02:41:52 UTC\",38.9610,-111.4003,1.7,0.20,16,\"Utah\"\r\nuu,60058677,3,\"Saturday,
+        March  8, 2014 02:15:15 UTC\",38.9607,-111.3792,1.1,6.10, 8,\"Utah\"\r\nuu,60058672,3,\"Saturday,
+        March  8, 2014 02:02:59 UTC\",41.5055,-112.3145,1.1,1.50,14,\"Utah\"\r\nci,15473697,2,\"Saturday,
+        March  8, 2014 01:53:54 UTC\",33.9015,-116.8815,1.1,15.80,24,\"Southern California\"\r\nuu,60058662,5,\"Saturday,
+        March  8, 2014 01:51:22 UTC\",38.9663,-111.3962,2.1,1.60,22,\"Utah\"\r\nnc,72180721,0,\"Saturday,
+        March  8, 2014 01:46:31 UTC\",36.2930,-120.8638,1.8,7.50,12,\"Central California\"\r\nnc,72180716,3,\"Saturday,
+        March  8, 2014 01:32:20 UTC\",36.7217,-121.3672,1.7,2.80,48,\"Central California\"\r\npr,14067002,0,\"Saturday,
+        March  8, 2014 01:17:36 UTC\",19.0429,-65.3427,3.3,44.00,12,\"Puerto Rico
+        region\"\r\npr,14067001,0,\"Saturday, March  8, 2014 00:55:19 UTC\",19.6245,-67.8790,3.3,12.00,
+        8,\"Dominican Republic region\"\r\nci,15473681,2,\"Saturday, March  8, 2014
+        00:48:46 UTC\",35.3358,-118.6685,2.2,1.60,26,\"Central California\"\r\nnc,72180701,0,\"Saturday,
+        March  8, 2014 00:47:34 UTC\",36.5418,-121.0567,1.4,8.60,12,\"Central California\"\r\nci,15473657,2,\"Saturday,
+        March  8, 2014 00:01:26 UTC\",33.3425,-116.3115,1.5,12.90,46,\"Southern California\"\r\npr,14067000,0,\"Saturday,
+        March  8, 2014 00:01:09 UTC\",18.8346,-65.3462,3.0,74.00, 7,\"Puerto Rico
+        region\"\r\npr,14066017,0,\"Friday, March  7, 2014 23:43:26 UTC\",18.9193,-65.3746,3.2,60.00,11,\"Puerto
+        Rico region\"\r\npr,14066016,0,\"Friday, March  7, 2014 23:41:07 UTC\",18.7425,-65.3328,3.0,90.00,
+        7,\"Puerto Rico region\"\r\npr,14066014,0,\"Friday, March  7, 2014 23:38:50
+        UTC\",19.0631,-65.3526,3.7,34.00,15,\"Puerto Rico region\"\r\npr,14066013,0,\"Friday,
+        March  7, 2014 23:35:08 UTC\",18.9615,-65.2918,3.1,77.00, 7,\"Puerto Rico
+        region\"\r\npr,14066015,0,\"Friday, March  7, 2014 23:26:39 UTC\",19.0209,-65.3069,3.1,56.00,
+        6,\"Puerto Rico region\"\r\npr,14066011,0,\"Friday, March  7, 2014 23:15:29
+        UTC\",19.0837,-65.3253,3.4,45.00,13,\"Puerto Rico region\"\r\npr,14066012,0,\"Friday,
+        March  7, 2014 22:57:24 UTC\",19.0475,-65.3450,2.8,49.00, 7,\"Puerto Rico
+        region\"\r\npr,14066010,0,\"Friday, March  7, 2014 22:50:42 UTC\",17.9141,-66.8141,2.2,9.00,
+        9,\"Puerto Rico region\"\r\npr,14066009,0,\"Friday, March  7, 2014 22:43:18
+        UTC\",19.0002,-65.2949,3.1,66.00, 7,\"Puerto Rico region\"\r\nnc,72180676,1,\"Friday,
+        March  7, 2014 22:36:28 UTC\",38.7497,-122.7118,1.8,2.60,23,\"Northern California\"\r\nnc,72180671,0,\"Friday,
+        March  7, 2014 22:31:33 UTC\",38.8390,-122.8290,1.0,2.60,15,\"Northern California\"\r\npr,14066008,0,\"Friday,
+        March  7, 2014 22:28:20 UTC\",18.9141,-65.3208,3.3,72.00,11,\"Puerto Rico
+        region\"\r\nuu,60058642,5,\"Friday, March  7, 2014 22:23:59 UTC\",38.9575,-111.3900,1.7,3.80,16,\"Utah\"\r\nuw,60713776,1,\"Friday,
+        March  7, 2014 22:21:08 UTC\",44.1087,-123.0622,1.6,0.00,11,\"Oregon\"\r\nnc,72180656,3,\"Friday,
+        March  7, 2014 21:38:23 UTC\",37.6042,-122.0147,2.8,6.50,233,\"San Francisco
+        Bay area, California\"\r\nnc,72180626,3,\"Friday, March  7, 2014 19:57:20
+        UTC\",35.7108,-120.2610,2.4,13.00,77,\"Central California\"\r\nuw,60713641,1,\"Friday,
+        March  7, 2014 19:22:18 UTC\",45.8877,-122.8967,2.4,0.00, 6,\"Oregon\"\r\npr,14066006,0,\"Friday,
+        March  7, 2014 19:11:05 UTC\",19.1473,-67.1989,2.9,6.00,13,\"Puerto Rico region\"\r\nci,15473601,2,\"Friday,
+        March  7, 2014 19:02:53 UTC\",33.0812,-116.5318,1.3,9.50,30,\"Southern California\"\r\nnc,72180611,0,\"Friday,
+        March  7, 2014 18:59:39 UTC\",38.8125,-122.8310,1.1,13.80, 6,\"Northern California\"\r\nnc,72180606,0,\"Friday,
+        March  7, 2014 18:56:54 UTC\",38.7543,-122.7100,1.1,1.30, 9,\"Northern California\"\r\nci,15473585,2,\"Friday,
+        March  7, 2014 18:40:03 UTC\",32.6330,-115.7183,1.9,6.30,17,\"Baja California,
+        Mexico\"\r\npr,14066007,0,\"Friday, March  7, 2014 18:20:12 UTC\",19.1429,-67.3251,3.0,35.00,
+        8,\"Puerto Rico region\"\r\nuu,60058597,2,\"Friday, March  7, 2014 18:13:56
+        UTC\",38.9547,-111.3808,1.5,12.60, 7,\"Utah\"\r\nci,15473569,2,\"Friday, March
+        \ 7, 2014 17:58:31 UTC\",35.9492,-117.2985,3.2,6.20,28,\"Central California\"\r\nci,15473561,2,\"Friday,
+        March  7, 2014 17:56:03 UTC\",33.9267,-116.6830,1.8,16.60,57,\"Southern California\"\r\nci,15473537,2,\"Friday,
+        March  7, 2014 17:52:25 UTC\",33.0822,-116.5478,1.6,7.90,47,\"Southern California\"\r\nci,15473529,2,\"Friday,
+        March  7, 2014 17:33:00 UTC\",35.9528,-117.2947,2.1,6.20,18,\"Central California\"\r\nci,15473513,2,\"Friday,
+        March  7, 2014 17:11:06 UTC\",33.4950,-116.4913,1.1,15.50,13,\"Southern California\"\r\nnc,72180531,0,\"Friday,
+        March  7, 2014 16:54:31 UTC\",38.7898,-122.7743,1.2,0.40,11,\"Northern California\"\r\nnc,72180526,1,\"Friday,
+        March  7, 2014 16:51:16 UTC\",38.8408,-122.8275,1.3,2.90,24,\"Northern California\"\r\nuu,60058577,4,\"Friday,
+        March  7, 2014 15:45:25 UTC\",38.9558,-111.3930,1.6,1.70,17,\"Utah\"\r\npr,14066004,0,\"Friday,
+        March  7, 2014 15:44:34 UTC\",18.0755,-67.2214,1.9,22.00, 6,\"Mona Passage,
+        Puerto Rico\"\r\nnc,72180511,0,\"Friday, March  7, 2014 15:26:18 UTC\",38.8283,-122.7508,1.1,1.20,
+        9,\"Northern California\"\r\npr,14066005,0,\"Friday, March  7, 2014 15:02:32
+        UTC\",18.1432,-65.8291,1.4,4.00, 3,\"Puerto Rico\"\r\nci,15473481,2,\"Friday,
+        March  7, 2014 13:45:05 UTC\",33.3788,-116.3428,1.7,9.50,40,\"Southern California\"\r\nnc,72180486,7,\"Friday,
+        March  7, 2014 13:17:24 UTC\",40.0753,-120.8633,1.7,1.40,26,\"Northern California\"\r\nuu,60058567,4,\"Friday,
+        March  7, 2014 11:27:05 UTC\",38.9575,-111.3855,1.7,3.50, 6,\"Utah\"\r\nnc,72180476,2,\"Friday,
+        March  7, 2014 11:25:52 UTC\",40.2985,-124.6527,2.7,23.60,29,\"offshore Northern
+        California\"\r\nuu,60058557,5,\"Friday, March  7, 2014 11:09:29 UTC\",38.9652,-111.4150,2.1,1.90,23,\"Utah\"\r\nnc,72180466,1,\"Friday,
+        March  7, 2014 10:54:31 UTC\",38.8207,-122.7967,1.2,3.30,23,\"Northern California\"\r\nnc,72180461,0,\"Friday,
+        March  7, 2014 10:39:03 UTC\",38.8225,-122.7652,1.0,2.60, 7,\"Northern California\"\r\nuu,60058552,3,\"Friday,
+        March  7, 2014 10:36:20 UTC\",38.9548,-111.3943,1.2,1.00, 8,\"Utah\"\r\nuw,60713481,2,\"Friday,
+        March  7, 2014 10:18:02 UTC\",47.7677,-122.1257,1.0,29.40,19,\"Seattle-Tacoma
+        urban area, Washington\"\r\nci,15473457,2,\"Friday, March  7, 2014 10:15:34
+        UTC\",33.3173,-116.8877,2.2,17.60,58,\"Southern California\"\r\npr,14066003,0,\"Friday,
+        March  7, 2014 10:05:28 UTC\",19.6996,-64.2823,3.3,24.00, 4,\"Virgin Islands
+        region\"\r\nci,15473449,2,\"Friday, March  7, 2014 10:00:44 UTC\",33.5388,-116.4252,1.0,13.80,21,\"Southern
+        California\"\r\nuu,60058532,4,\"Friday, March  7, 2014 09:32:00 UTC\",44.7492,-110.8062,1.1,8.80,11,\"Yellowstone
+        National Park, Wyoming\"\r\nuu,60058522,7,\"Friday, March  7, 2014 08:54:30
+        UTC\",38.9655,-111.4138,2.6,3.30,31,\"Utah\"\r\nnc,72180436,3,\"Friday, March
+        \ 7, 2014 08:44:24 UTC\",35.3425,-120.6312,1.0,5.80,17,\"Central California\"\r\nnc,72180421,0,\"Friday,
+        March  7, 2014 07:40:30 UTC\",38.8403,-122.8287,1.2,2.70,20,\"Northern California\"\r\nnc,72180416,1,\"Friday,
+        March  7, 2014 07:40:06 UTC\",38.8395,-122.8283,1.5,2.90,27,\"Northern California\"\r\nci,15473417,2,\"Friday,
+        March  7, 2014 06:48:22 UTC\",32.3035,-115.3918,2.6,23.90,12,\"Baja California,
+        Mexico\"\r\nnc,72180401,0,\"Friday, March  7, 2014 06:32:23 UTC\",38.7495,-122.7105,1.0,3.10,12,\"Northern
+        California\"\r\nnc,72180391,6,\"Friday, March  7, 2014 06:28:46 UTC\",40.1773,-121.0722,1.8,7.10,19,\"Northern
+        California\"\r\nnc,72180386,0,\"Friday, March  7, 2014 06:17:27 UTC\",37.6612,-118.8513,1.1,4.30,10,\"Long
+        Valley area, California\"\r\npr,14066000,0,\"Friday, March  7, 2014 06:16:21
+        UTC\",19.5429,-67.9456,3.9,30.00,24,\"Dominican Republic region\"\r\nhv,60651401,5,\"Friday,
+        March  7, 2014 06:02:41 UTC\",19.4723,-155.4358,2.0,9.40,73,\"Island of Hawaii,
+        Hawaii\"\r\nci,15473409,2,\"Friday, March  7, 2014 05:36:05 UTC\",34.1732,-117.5320,1.3,14.30,22,\"Greater
+        Los Angeles area, California\"\r\npr,14066002,0,\"Friday, March  7, 2014 04:54:07
+        UTC\",19.4687,-67.9589,2.7,34.00, 5,\"Dominican Republic region\"\r\npr,14066001,0,\"Friday,
+        March  7, 2014 04:51:19 UTC\",19.5259,-67.9745,2.7,34.00, 6,\"Dominican Republic
+        region\"\r\nci,15473401,2,\"Friday, March  7, 2014 04:42:27 UTC\",33.9143,-116.9075,1.2,15.10,20,\"Southern
+        California\"\r\nuu,60058512,4,\"Friday, March  7, 2014 04:20:08 UTC\",38.9627,-111.4018,2.1,1.30,21,\"Utah\"\r\nnc,72180341,1,\"Friday,
+        March  7, 2014 03:52:56 UTC\",38.8090,-122.8228,1.7,1.70,33,\"Northern California\"\r\nnc,72180336,0,\"Friday,
+        March  7, 2014 03:49:00 UTC\",38.8397,-122.8298,1.0,2.40,15,\"Northern California\"\r\nhv,60651236,3,\"Friday,
+        March  7, 2014 03:37:30 UTC\",19.3612,-155.2362,1.7,30.50,24,\"Island of Hawaii,
+        Hawaii\"\r\nci,15473385,2,\"Friday, March  7, 2014 03:11:48 UTC\",36.0943,-117.8870,1.5,7.00,
+        9,\"Central California\"\r\nnc,72180326,0,\"Friday, March  7, 2014 03:03:13
+        UTC\",38.7903,-122.7813,1.0,0.70, 8,\"Northern California\"\r\nuu,60058502,3,\"Friday,
+        March  7, 2014 02:39:18 UTC\",38.9558,-111.3778,1.4,4.80, 7,\"Utah\"\r\nci,15473361,2,\"Friday,
+        March  7, 2014 00:58:35 UTC\",32.8678,-116.2433,2.8,2.40,62,\"Southern California\"\r\nci,15473337,2,\"Thursday,
+        March  6, 2014 23:13:17 UTC\",33.3097,-116.9203,1.1,7.90,17,\"Southern California\"\r\nnc,72180261,0,\"Thursday,
+        March  6, 2014 23:08:27 UTC\",36.9623,-121.6020,1.4,4.40,15,\"Northern California\"\r\nnc,72180251,0,\"Thursday,
+        March  6, 2014 23:05:27 UTC\",36.9625,-121.6023,1.4,4.40,19,\"Northern California\"\r\nuw,60713176,1,\"Thursday,
+        March  6, 2014 22:10:26 UTC\",49.3988,-120.4797,2.4,0.00,12,\"British Columbia,
+        Canada\"\r\nci,15473321,2,\"Thursday, March  6, 2014 22:08:58 UTC\",34.0347,-117.0948,1.4,8.70,20,\"Greater
+        Los Angeles area, California\"\r\nci,15473305,2,\"Thursday, March  6, 2014
+        22:00:07 UTC\",32.7647,-116.8948,1.5,4.30,19,\"San Diego County urban area,
+        California\"\r\npr,14065002,1,\"Thursday, March  6, 2014 21:56:45 UTC\",19.4685,-67.9251,4.6,52.00,19,\"Dominican
+        Republic region\"\r\nnc,72180196,0,\"Thursday, March  6, 2014 20:25:41 UTC\",38.8243,-122.8560,1.2,2.80,19,\"Northern
+        California\"\r\nci,15473289,2,\"Thursday, March  6, 2014 20:13:46 UTC\",34.0610,-118.3138,1.3,3.30,13,\"Greater
+        Los Angeles area, California\"\r\n"
+    http_version: 
+  recorded_at: Thu, 13 Mar 2014 20:09:14 GMT
+recorded_with: VCR 2.6.0
