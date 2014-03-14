@@ -29,13 +29,25 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'httparty'
 
-gem 'rspec'
+gem 'pg'
 
-gem 'rspec-rails'
+gem 'rgeo'
 
-gem 'vcr'
+gem 'activerecord-postgis-adapter'
 
-gem 'webmock'
+group :test do
+  gem 'rspec'
+
+  gem 'rspec-rails'
+
+  gem 'vcr'
+
+  gem 'webmock', '<= 1.8'
+
+  gem 'machinist', '>= 2.0.0.beta2'
+
+  gem 'faker'
+end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

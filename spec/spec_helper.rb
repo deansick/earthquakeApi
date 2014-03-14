@@ -13,12 +13,22 @@ Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 # If you are not using ActiveRecord, you can remove this line.
 ActiveRecord::Migration.check_pending! if defined?(ActiveRecord::Migration)
 
-VCR.configure do |c|
+VCR.config do |c|
   c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
-  c.hook_into :webmock # or :fakeweb
+  c.stub_with :webmock
+  c.default_cassette_options = { :record => :new_episodes }
 end
 
 RSpec.configure do |config|
+  # config.around(:each) do |example|
+  #   options = example.metadata[:vcr] || {}
+  #   if options[:record] == :skip 
+  #     VCR.turned_off(&example)
+  #   else
+  #     name = example.metadata[:full_description].split(/\s+/, 2).join("/").underscore.gsub(/[^\w\/]+/, "_")
+  #     VCR.use_cassette(name, options, &example)
+  #   end
+  # end
   # ## Mock Framework
   #
   # If you prefer to use mocha, flexmock or RR, uncomment the appropriate line:
