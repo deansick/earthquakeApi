@@ -8,13 +8,11 @@ class EarthquakeImporter
     data = CSV.parse(response)[2..-1] # to remove the header and deprecation warning
 
 
-    point_factory = RGeo::Geographic.simple_mercator_factory
-    # Src,Eqid,Version,Datetime,Lat,Lon,Magnitude,Depth,NST,Region
     munged = data.collect do |src, eqid, version, report_time, lat, lon, magnitude, depth, nst, region|
       {
         usgs_eqid: eqid,
         reported_date: DateTime.parse(report_time),
-        geopoint: point_factory.point(lon, lat),
+        geopoint: Earthquake.rgeo_factory_for_column(:geopoint).point(lon, lat),
         latitude: lat,
         longitude: lon,
         depth: depth,
@@ -23,6 +21,8 @@ class EarthquakeImporter
       }
     end
 
-    Earthquake.create(munged)
-  end
+    Earthquake.transaction do         # I went with wrapping in a transaction because it's marginally
+      Earthquake.create(munged)       # faster than bulk creating as normal. I could have selected ids and
+    end                               # excluded duplicates, pushing the inserts directly into sql.
+  end                                 # That didn't seem appropriate.
 end

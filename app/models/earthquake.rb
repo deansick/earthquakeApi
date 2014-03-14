@@ -1,6 +1,6 @@
 class Earthquake < ActiveRecord::Base
   self.rgeo_factory_generator = RGeo::Geos.factory_generator
-  set_rgeo_factory_for_column(:lonlat, RGeo::Geographic.spherical_factory(:srid => 4326))
+  set_rgeo_factory_for_column(:geopoint, RGeo::Geographic.spherical_factory(:srid => 4326))
 
   validates_uniqueness_of :usgs_eqid
   
