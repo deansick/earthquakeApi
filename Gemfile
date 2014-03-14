@@ -9,6 +9,8 @@ gem 'rails', '4.0.3'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+gem 'turbolinks'
+
 gem 'httparty'
 
 gem 'pg'
