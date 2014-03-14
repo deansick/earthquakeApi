@@ -12,7 +12,6 @@ class EarthquakeImporter
       {
         usgs_eqid: eqid,
         reported_date: DateTime.parse(report_time),
-        geopoint: Earthquake.rgeo_factory_for_column(:geopoint).point(lon, lat),
         latitude: lat,
         longitude: lon,
         depth: depth,

@@ -4,9 +4,8 @@ class CreateEarthquakes < ActiveRecord::Migration
     create_table :earthquakes do |t|
       t.timestamp :reported_date
       t.string :usgs_eqid, :unique => true, :null => false
-      t.point :geopoint, :geographic => true
-      t.float :latitude
-      t.float :longitude
+      t.float :latitude, :precision => 8
+      t.float :longitude, :precision => 8
       t.float :depth, :null => false
       t.float :magnitude, :null => false
       t.string :region

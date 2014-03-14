@@ -77,9 +77,8 @@ describe Earthquake do
       end
 
       it "returns only records within 5m/8km of the specified lat/lon" do
-        point_factory = RGeo::Geographic.simple_mercator_factory
-        nearby_quake = Earthquake.make!( geopoint: point_factory.point(10,10))
-        far_away_quake = Earthquake.make!( geopoint: point_factory.point(100,-100))
+        nearby_quake = Earthquake.make!( latitude: 10.0, longitude: 10.0)
+        far_away_quake = Earthquake.make!( latitude: -100.0, longitude: 10.1)
 
         quakes_near_location = Earthquake.near('10.0001,10.0001')
 

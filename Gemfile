@@ -25,9 +25,7 @@ gem 'httparty'
 
 gem 'pg'
 
-gem 'rgeo'
-
-gem 'activerecord-postgis-adapter'
+gem 'activerecord-postgres-earthdistance'
 
 group :test do
   gem 'rspec'

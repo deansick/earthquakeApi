@@ -11,26 +11,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140314161144) do
+ActiveRecord::Schema.define(version: 20140314195801) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-  enable_extension "postgis"
+  enable_extension "cube"
+  enable_extension "earthdistance"
 
   create_table "earthquakes", force: true do |t|
     t.datetime "reported_date"
-    t.string   "usgs_eqid",                                                              null: false
-    t.spatial  "geopoint",      limit: {:srid=>4326, :type=>"point", :geographic=>true}
+    t.string   "usgs_eqid",     null: false
     t.float    "latitude"
     t.float    "longitude"
-    t.float    "depth",                                                                  null: false
-    t.float    "magnitude",                                                              null: false
+    t.float    "depth",         null: false
+    t.float    "magnitude",     null: false
     t.string   "region"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "earthquakes", ["geopoint"], :name => "index_earthquakes_on_geopoint", :spatial => true
-  add_index "earthquakes", ["usgs_eqid"], :name => "index_earthquakes_on_usgs_eqid"
+  add_index "earthquakes", ["usgs_eqid"], name: "index_earthquakes_on_usgs_eqid", using: :btree
 
 end

@@ -1,7 +1,5 @@
 class Earthquake < ActiveRecord::Base
-  self.rgeo_factory_generator = RGeo::Geos.factory_generator
-  set_rgeo_factory_for_column(:geopoint, RGeo::Geographic.spherical_factory(:srid => 4326))
-
+  acts_as_geolocated lat: 'latitude', lng: 'longitude'
   validates_uniqueness_of :usgs_eqid
   
   scope :since, ->(time=nil) {
@@ -33,7 +31,7 @@ class Earthquake < ActiveRecord::Base
   scope :near, ->(query=nil) {
     unless query.nil?
       lat,lon = query.split(',')
-      where("ST_DWithin(Geography(geopoint), Geography(ST_MakePoint(?, ?)), 8047)", lon, lat) # 5 miles ~ 8.0467km
+      within_radius(8047, lat, lon) # 5 miles ~ 8.0467km
     end
   }
 end
