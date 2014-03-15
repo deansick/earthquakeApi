@@ -1,5 +1,6 @@
 class EarthquakesController < ApplicationController
   def index
-    render json: Earthquake.since(params[:since]).on(params[:on]).over(params[:over]).near(params[:near])
+    @quakes = Earthquake.since(params[:since]).on(params[:on]).over(params[:over]).near(params[:near])
+    render json: @quakes
   end
 end

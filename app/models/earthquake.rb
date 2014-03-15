@@ -4,22 +4,14 @@ class Earthquake < ActiveRecord::Base
   
   scope :since, ->(time=nil) {
     unless time.blank?
-      if time.kind_of?(Integer) || time.to_i > 12 # not a date/timestamp
-        time = Time.at(time.to_i).to_datetime
-      else
-        time = DateTime.parse(time)
-      end
+      time = Time.at(time.to_i).utc
       where("reported_date > ?", time)
     end
   }
 
   scope :on, ->(date=nil) {
     unless date.blank?
-      if date.kind_of?(Integer) || date.to_i > 12
-        parsed = Time.at(date.to_i).to_datetime
-      else
-        parsed = DateTime.parse(date)
-      end
+      parsed = Time.at(date.to_i).to_datetime
       where(reported_date: parsed.beginning_of_day..parsed.end_of_day)
     end
   }
