@@ -80,7 +80,7 @@ describe Earthquake do
         nearby_quake = Earthquake.make!( latitude: 10.0, longitude: 10.0)
         far_away_quake = Earthquake.make!( latitude: -100.0, longitude: 10.1)
 
-        quakes_near_location = Earthquake.near('10.0001,10.0001')
+        quakes_near_location = Earthquake.near(10.0001,10.0001)
 
         quakes_near_location.should include(nearby_quake)
         quakes_near_location.should_not include(far_away_quake)

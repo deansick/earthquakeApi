@@ -20,9 +20,8 @@ class Earthquake < ActiveRecord::Base
     where("magnitude > ?", threshold) unless threshold.blank?
   }
 
-  scope :near, ->(query=nil) {
-    unless query.nil?
-      lat,lon = query.split(',')
+  scope :near, ->(lat=nil, lon=nil) {
+    unless lat.blank? || lon.blank?
       within_radius(8047, lat, lon) # 5 miles ~ 8.0467km
     end
   }
